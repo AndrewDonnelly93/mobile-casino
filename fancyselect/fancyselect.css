@@ -1,0 +1,313 @@
+body {
+    font-size: 16px;
+}
+
+div.fancy-select {
+    margin: 20px 0 10px;
+	position: relative;
+    font-weight: bold;
+    font-size: 0.8125em;
+    color: #000;
+    display: inline-block;
+    height: 35px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div.fancy-select.disabled {
+	opacity: 0.5;
+}
+
+div.fancy-select div.trigger {
+    padding: 9px 0 0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+	cursor: pointer;
+    height: 35px;
+    width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: relative;
+    border: 1px solid #b7bac2;
+    background: #edf0f4;
+	color: #000;
+	transition: all 240ms ease-out;
+	-webkit-transition: all 240ms ease-out;
+	-moz-transition: all 240ms ease-out;
+	-ms-transition: all 240ms ease-out;
+	-o-transition: all 240ms ease-out;
+}
+
+div.fancy-select div.trigger:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 35px;
+    background-repeat: no-repeat;
+    z-index: 50;
+    background-color: #f2f2f2;
+    background-image: url("../img/cashbox/arrows.png");
+    background-size: 7px 17px;
+    background-position: center center;
+    top: 0;
+    right: 0;
+    border-left: 1px solid #cdd1d9;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div.fancy-select div.trigger.open {
+    padding: 9px 0 0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 35px;
+    width: 130px;
+    border: 1px solid #b7bac2;
+    background: #edf0f4;
+    color: #000;
+	box-shadow: none;
+}
+
+div.fancy-select ul.options {
+	list-style: none;
+	margin: 0;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 50;
+	max-height: 200px;
+	overflow: auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+	min-width: 130px;
+	transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+	-webkit-transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+	-ms-transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+	-o-transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+}
+
+div.fancy-select ul.options.open {
+	visibility: visible;
+	top: 50px;
+	opacity: 1;
+    z-index: 1000;
+	/* have to use a non-visibility transition to prevent this iOS issue (bug?): */
+	/*http://stackoverflow.com/questions/10736478/css-animation-visibility-visible-works-on-chrome-and-safari-but-not-on-ios*/
+	transition: opacity 300ms ease-out, top 300ms ease-out;
+	-webkit-transition: opacity 300ms ease-out, top 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out, top 300ms ease-out;
+	-ms-transition: opacity 300ms ease-out, top 300ms ease-out;
+	-o-transition: opacity 300ms ease-out, top 300ms ease-out;
+}
+
+div.fancy-select ul.options.overflowing {
+	top: auto;
+	bottom: 40px;
+    z-index: 1000;
+	transition: opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;
+	-webkit-transition: opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;
+	-ms-transition: opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;
+	-o-transition: opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;
+}
+
+div.fancy-select ul.options.overflowing.open {
+    z-index: 1000;
+	top: auto;
+	bottom: 50px;
+	transition: opacity 300ms ease-out, bottom 300ms ease-out;
+	-webkit-transition: opacity 300ms ease-out, bottom 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out, bottom 300ms ease-out;
+	-ms-transition: opacity 300ms ease-out, bottom 300ms ease-out;
+	-o-transition: opacity 300ms ease-out, bottom 300ms ease-out;
+}
+
+div.fancy-select ul.options li {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 9px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    border-bottom: 1px solid #b7bac2;
+    background: #edf0f4;
+    height: 35px;
+    width: 130px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 150ms ease-out;
+    -webkit-transition: all 150ms ease-out;
+    -moz-transition: all 150ms ease-out;
+    -ms-transition: all 150ms ease-out;
+    -o-transition: all 150ms ease-out;
+}
+
+div.fancy-select ul.options.purse-select li {
+    width: 95px;
+}
+
+div.fancy-select ul.options li.selected {
+    position: relative;
+}
+
+/* Set width */
+
+div.fancy-select.birth-date-day div.trigger {
+    width: 70px !important;
+}
+
+div.fancy-select.birth-date-day div.trigger.open {
+    width: 70px !important;
+}
+
+div.fancy-select.birth-date-day ul.options {
+    min-width: 70px;
+}
+
+div.fancy-select.birth-date-day ul.options li {
+    width: 70px;
+}
+
+div.fancy-select.birth-date-month div.trigger {
+    width: 120px !important;
+}
+
+div.fancy-select.birth-date-month div.trigger.open {
+    width: 120px !important;
+}
+
+div.fancy-select.birth-date-month ul.options {
+    min-width: 120px;
+}
+
+div.fancy-select.birth-date-month ul.options li {
+    width: 120px;
+}
+
+div.fancy-select.birth-date-year div.trigger {
+    width: 90px !important;
+}
+
+div.fancy-select.birth-date-year div.trigger.open {
+    width: 90px !important;
+}
+
+div.fancy-select.birth-date-year ul.options {
+    min-width: 90px;
+}
+
+div.fancy-select.birth-date-year ul.options li {
+    width: 90px;
+}
+
+div.fancy-select.birth-date-day,
+div.fancy-select.birth-date-month,
+div.fancy-select.birth-date-year {
+    margin: 3px 3px 10px 0;
+}
+
+div.fancy-select.type-of-bill div.trigger {
+    width: 210px !important;
+}
+
+div.fancy-select.type-of-bill div.trigger.open {
+    width: 210px !important;
+}
+
+div.fancy-select.type-of-bill ul.options {
+    min-width: 210px;
+}
+
+div.fancy-select.type-of-bill ul.options li {
+    width: 210px;
+}
+
+div.fancy-select.valid-period-month div.trigger {
+    width: 97px !important;
+}
+
+div.fancy-select.valid-period-month div.trigger.open {
+    width: 97px !important;
+}
+
+div.fancy-select.valid-period-month ul.options {
+    min-width: 97px;
+}
+
+div.fancy-select.valid-period-month ul.options li {
+    width: 97px;
+}
+
+div.fancy-select.valid-period-year div.trigger {
+    width: 75px !important;
+}
+
+div.fancy-select.valid-period-year div.trigger.open {
+    width: 75px !important;
+}
+
+div.fancy-select.valid-period-year ul.options {
+    min-width: 75px;
+}
+
+div.fancy-select.valid-period-year ul.options li {
+    width: 75px;
+}
+
+div.fancy-select.valid-period-month div.trigger,
+div.fancy-select.valid-period-year div.trigger,
+div.fancy-select.valid-period-month div.trigger.open,
+div.fancy-select.valid-period-year div.trigger.open {
+    padding: 9px 0 0 6px;
+}
+
+div.fancy-select.valid-period-month,
+div.fancy-select.valid-period-year {
+    position: absolute;
+    top: -9px;
+    margin: -10px 0 -10px;
+}
+
+div.fancy-select.valid-period-month {
+    right: 90px;
+}
+
+div.fancy-select.valid-period-year {
+    right: 0;
+}
+
+div.fancy-select.type-of-purse div.trigger {
+    width: 90px !important;
+}
+
+div.fancy-select.type-of-purse div.trigger.open {
+    width: 90px !important;
+}
+
+div.fancy-select.type-of-purse ul.options {
+    min-width: 90px;
+}
+
+div.fancy-select.type-of-purse ul.options li {
+    width: 90px;
+}

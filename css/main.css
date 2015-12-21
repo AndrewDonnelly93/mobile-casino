@@ -1,0 +1,4174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Tahoma", sans-serif;
+    src: url("../fonts/Tahoma.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    font-size: 16px;
+    font-family: "PT Sans", sans-serif;
+    background: #22242c;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.center-wrapper {
+    margin: 0 auto;
+    width: 300px;
+}
+
+td {
+    vertical-align: top;
+}
+
+#menu {
+    background: #22242c;
+    z-index: 1000;
+}
+
+.smartphone-version header {
+    position: relative;
+}
+
+.layout-wrapper {
+    margin: 0 auto;
+    width: 320px;
+}
+
+header.modal-pattern {
+    top: 2px;
+}
+
+.authorized {
+    margin-top: 20px;
+    min-height: 45px;
+    position: relative;
+}
+
+.btn.registration {
+    margin-left: 10px;
+}
+
+.centered {
+    text-align: center;
+}
+
+input[type="submit"],
+.btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.125em; /* 18px / 16px */
+    text-shadow: 0 1px 3px rgb( 3, 2, 0 );
+    border-radius: 3px;
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb( 84, 56, 5 );
+    display: inline-block;
+    height: 42px;
+    padding-top: 10px;
+}
+
+.btn {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    border: 0;
+}
+
+.btn.popup {
+    display: block;
+    width: 300px;
+    margin: 0 auto 20px;
+    background: url("../img/yellow_pattern.png") repeat 0 0;
+}
+
+.section-name {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.375em; /* 22px / 16px */
+}
+
+.section-name a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.item-name {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 0.75em; /* 12px / 16px */
+    color: #666;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    /* Ellipsis if text doesn't fit the block */
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.bonus-name {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 0.75em; /* 12px / 16px */
+    text-transform: uppercase;
+    color: #999;
+}
+
+.menu-list li {
+    display: block;
+}
+
+.menu-list li a {
+    display: block;
+    height: 50px;
+    padding-top: 12px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.25em; /* 20px / 16px */
+    text-transform: uppercase;
+    color: #ffcc00;
+    text-decoration: none;
+    text-shadow: 5px -5px 15px rgba(255, 48, 0, 0.7),
+    -5px 5px 15px rgba(255, 48, 0, 0.7),
+    5px 5px 15px rgba(255, 48, 0, 0.7),
+    -5px -5px 15px rgba(255, 48, 0, 0.7);
+}
+
+.copyright {
+    font-family: "Tahoma", sans-serif;
+    font-weight: 400;
+    font-size: 0.75em; /* 12px / 16px */
+    color: #666666;
+}
+
+.foot-menu li {
+    display: inline-block;
+}
+
+.foot-menu li a {
+    display: block;
+    text-decoration: none;
+    font-family: "Tahoma", sans-serif;
+    font-weight: 400;
+    font-size: 0.875em; /* 14px / 16px */
+    color: #9966cc;
+}
+
+.head-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 150px;
+    width: 100%;
+}
+
+.head-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../img/left-head-bg.png");
+    width: 169px;
+    height: 150px;
+    z-index: 10;
+}
+
+.head-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url("../img/right-head-bg.png");
+    width: 169px;
+    height: 150px;
+    z-index: 10;
+}
+
+.head-core {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: url("../img/head-bg.png") 0 0 repeat-x;
+    height: 110px;
+}
+
+header .center-wrapper {
+    height: 65px;
+}
+
+.list-with-slider {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-button,
+.menu-tablet-button,
+a.reg-button,
+a.cashbox {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    z-index: 20;
+}
+
+.menu-button,
+.menu-tablet-button {
+    background-position: 0 86.734694%;
+    background-size: 250% !important;
+    background-repeat: no-repeat;
+    height: 52px;
+    width: 48px;
+    left: 0;
+    z-index: 30;
+}
+
+.head-logo {
+    position: relative;
+    top: 15px;
+    left: 2px;
+    margin: 0 auto;
+    display: block;
+    background-image: url("../img/logo-frank_320x68.png");
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 226px;
+    background-position: center 2px;
+    z-index: 30;
+}
+
+a.cashbox {
+    top: 10px;
+    height: 64px;
+    width: 64px;
+    right: -5px;
+    background-image: url("../img/cashbox_84x84.png");
+    z-index: 30;
+}
+
+a.reg-button {
+    width: 52px;
+    height: 52px;
+    background-image: url("../img/anim_icon_arrow.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(7,23,23,0.5);
+    background-size: 28px 28px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    right: 0;
+}
+
+.btn.yellow {
+    background: url("../img/yellow_pattern.png") repeat 0 0;
+    border: 1px solid rgb( 84, 56, 5 );
+}
+
+.btn.red {
+    background: url("../img/red_pattern.png") repeat 0 0;
+    border: 1px solid rgb( 86, 28, 10 );
+}
+
+input.btn.popup {
+    padding-top: 1px !important;
+}
+
+/* Authorized section */
+
+.btn.enter {
+    display: inline-block;
+    position: relative;
+    z-index: 30;
+    width: 36.67%;
+    margin-left: 5px;
+}
+
+.btn.registration {
+    display: inline-block;
+    position: relative;
+    z-index: 30;
+    width: 56.67%;
+    margin-right: 0;
+}
+
+/* Box-sizing: border-box */
+
+.list-item,
+.section-header,
+.btn,
+.swiper-slide,
+.frame,
+.full-star,
+.half-star,
+.no-star,
+.item-name,
+.jack-top,
+.jack-bottom,
+.banner-img,
+.menu-list li,
+.menu-list li a,
+.payment-systems-footer,
+.payment-list li.logo,
+a.cashbox,
+.jackpot-in-game,
+li.payment-item,
+.payment-item .logotype,
+header.modal-pattern,
+input,
+li.social-item,
+.social-frame,
+.menu-pattern,
+.main-menu-list li,
+.games-list-filter li,
+.games-list-filter li a,
+.games-list-tablet li,
+.games-list-tablet li a,
+.cashbox-menu-item,
+.tabs-section-name,
+.transaction-name,
+.history-item,
+.payment-list-cashbox-item,
+.payment-logo-cashbox,
+.shadow-gradient,
+.cashbox-input,
+.input-phone-number,
+.code-country-number,
+.phone-number,
+.input-with-arrows,
+.arrows,
+.bonus-active-img,
+.logo-cashback,
+.tapestry,
+.not-enough-money,
+.cash-list-item,
+.cash,
+.tournament-win-image,
+.win-cup,
+.comp-points-image,
+.status-box,
+.games-in-bonus-item img,
+.games-in-bonus-item.hover:before,
+.games-in-bonus-item.selected:before,
+.bonus-in-cashbox,
+.account-details-box,
+a.edit-profile,
+.cash-out-box,
+.balance-franks-block,
+.exchange-money-string,
+.exchange-rate-box,
+.balance-currency-block,
+.description.centered.profile-edit {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Images - background size: cover */
+
+.head-left,
+.head-right,
+.head-core,
+.btn,
+.section-logo,
+.head-logo,
+.main-head,
+.price-head,
+.full-star,
+.half-star,
+.bonus-img,
+.jack-left,
+.jack-right,
+.banner-img,
+.foot-logo,
+a.cashbox,
+li.payment-item,
+.checked-list li:before,
+.condition:before,
+.left-menu-bg,
+.menu-logo,
+.arrow-nav,
+.cashbox-icon,
+.payment-logo-cashbox,
+.radio,
+.checkbox,
+.country-flag,
+.arrows,
+.bonus-active-img,
+.logo-cashback,
+.tapestry,
+.not-enough-money,
+.cash,
+.win-cup,
+.comp-points-image,
+.light,
+.warning,
+.icon-mail,
+.icon-phone,
+.btn.close {
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.menu-button,
+.menu-tablet-button,
+.foot-logo,
+.logo-social,
+.section-logo,
+.condition.success:before,
+.condition.fail:before,
+.checked-list li:before,
+ul.rate li.half-star,
+ul.rate li.full-star {
+    max-width: 100%;
+    background-size: 100%;
+    background-image: url('../img/sprite/sprite.png');
+}
+
+/* Section header */
+
+.section-header {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    margin-top: 20px; /* 20px / 300px */
+    background: #33323d;
+    z-index: 100;
+}
+
+.section-name.no-img {
+    margin-left: 20px;
+}
+
+.tablet-version {
+    background: #0f0e13;
+}
+
+.arrow-nav {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 9px;
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/more_30x30.png");
+}
+
+.arrow-nav.active {
+    background-image: url("../img/more-active_30x30.png");
+}
+
+.arrow-nav:hover {
+    cursor: pointer;
+}
+
+.section-header.last {
+    margin-bottom: 50px;
+}
+
+.section-logo {
+    position: absolute;
+    left: 3.5%;
+    top: 6px;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    z-index: 15000;
+}
+
+.section-logo.game {
+    background-position: 0 76.530612%;
+    background-size: 240% !important;
+}
+
+.section-logo.bonus {
+    background-position: 0 71.428571%;
+    background-size: 240% !important;
+}
+
+.section-logo.tournament {
+    background-position: 0 81.632653%;
+    background-size: 240% !important;
+}
+
+.section-name {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 7px;
+}
+
+/* Games section */
+
+.games {
+    margin-top: 10px; /* 10px / 300px */
+}
+
+.items-list {
+    margin-top: 10px; /* 10px / 300px */
+}
+
+.list-item {
+    display: inline-block;
+    position: relative;
+    margin-right: -4px;
+    width: 190px;
+    height: 141px;
+}
+
+.swiper-container {
+    margin-top: 10px; /* 10px / 300px */
+    width: 100%;
+    height: 141px;
+}
+
+.swiper-slide {
+    position: relative;
+    width: 190px;
+    height: 141px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper1 .swiper-slide img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 190px;
+    height: 111px;
+}
+
+.list-item img {
+    width: 145px;
+    height: 84px;
+}
+
+.cashbox-menu-item {
+    position: relative;
+}
+
+.payment-list-cashbox-item {
+    position: relative;
+}
+
+.swiper-slide a,
+.list-item a,
+.bonus-item a,
+.banner-img a,
+.cashbox-menu-item a,
+.payment-item a,
+a.cashbox-link,
+a.button-filter,
+.section-header a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+.payment-item a,
+a.cashbox-link,
+.section-header a {
+    z-index: 1100;
+}
+
+ul.rate {
+    width: 75px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    display: inline-block;
+    height: 20px;
+    z-index: 2;
+}
+
+ul.rate li {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-right: -10px;
+}
+
+ul.rate li.full-star {
+    background-position: 0 95.854063%;
+    background-size: 600% !important;
+}
+
+ul.rate li.half-star {
+    background-position: 0 98.341625%;
+    background-size: 600% !important;
+}
+
+.swiper-slide .frame,
+.list-item .frame {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background: #333;
+    border: 1px solid #000;
+    box-shadow: inset 0 0 2px 2px #666;
+    height: 30px;
+    width: 100%;
+    padding-top: 5px;
+    margin-top: -5px;
+}
+
+/* Bonus section */
+
+.swiper-container.swiper2 {
+    margin-top: 10px;
+    width: 100%;
+    height: 109px;
+}
+
+.swiper2 .swiper-slide {
+    height: 109px;
+}
+
+.swiper2 .swiper-slide img {
+    width: 190px;
+    height: 79px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.list-item .games-img {
+    width: 190px;
+    height: 79px;
+}
+
+.bonus-list {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.bonus-list.big-size {
+    margin: 10px auto 0;
+    display: block;
+    background: #24252e;
+    padding-bottom: 20px;
+}
+
+.bonus-list.big-size .bonus-item {
+    width: 300px;
+    height: 173px;
+    display: block;
+    margin: 0 auto 15px;
+    z-index: 40;
+}
+
+.bonus-list.big-size .bonus-item:last-child {
+    margin-bottom: 0;
+}
+
+.big-size.bonus-open {
+    background: #24252e;
+    display: block;
+}
+
+.big-size.bonus-open .bonus-item {
+    width: 300px;
+    height: 173px;
+    display: block;
+    margin: 0 auto;
+    z-index: 40;
+}
+
+.bonus-item {
+    display: inline-block;
+    position: relative;
+    margin-right: -4px;
+    width: 190px;
+    height: 109px;
+}
+
+.bonus-list.big-size .bonus-name,
+.big-size.bonus-open .bonus-name {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+
+.bonus-item .bonus-img {
+    height: 79px;
+    width: 190px;
+}
+
+.bonus-item .bonus-img img {
+    height: 79px;
+    width: 190px;
+}
+
+.bonus-item .frame {
+    text-align: center;
+    background: #293535;
+    border: 1px solid #000;
+    box-shadow: inset 0 0 1px 1px #666;
+    height: 30px;
+    width: 100%;
+    padding-top: 7px;
+    margin-top: -5px;
+}
+
+.bonus-list.big-size .bonus-item .frame,
+.big-size.bonus-open .bonus-item .frame {
+    height: 50px;
+    padding-top: 12px;
+    margin-top: -5px;
+}
+
+.bonus-list.big-size .bonus-item.return .frame {
+    background: #232a2b;
+}
+
+.bonus-list.big-size .bonus-item.tournaments .frame {
+    background: #21131b;
+}
+
+.bonus-list.big-size .bonus-item.points .frame {
+    background: #020807;
+}
+
+.bonus-list.big-size .bonus-item.spins .frame {
+    background: #081728;
+}
+
+.bonus-item .frame.brown {
+    background: #44322b;
+}
+
+.swiper-container.swiper3 {
+    height: 109px;
+}
+
+.swiper3 .swiper-slide {
+    height: 109px;
+}
+
+.swiper3 .swiper-slide img {
+    width: 190px;
+    height: 79px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+section.tournaments .list-item {
+    height: 109px;
+}
+
+/* Jackpot section */
+
+.jackpot {
+    position: relative;
+    margin-top: 20px;
+    border-top: 2px solid #6d4dbf;
+    border-bottom: 2px solid #6d4dbf;
+    background: rgba(0, 0, 0, 0.5);
+    height: 165px;
+}
+
+.counter-wrapper {
+    width: 276px;
+    margin: 0 auto;
+}
+
+.jack-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 84px;
+    height: 87px;
+    background-image: url("../img/jackpot-left-bg.png");
+}
+
+.jack-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 77px;
+    height: 75px;
+    background-image: url("../img/jackpot-right-bg.png");
+}
+
+.jack-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #000;
+    z-index: 2;
+}
+
+.jack-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #000;
+    z-index: 2;
+}
+
+.main-head {
+    width: 308px;
+    height: 62px;
+    margin: 23px auto 15px;
+    background-image: url("../img/jackpot-casino_450x91.png");
+}
+
+/* Banner section */
+
+.banner {
+    margin-top: 20px;
+}
+
+.banner-img {
+    display: block;
+    position: relative;
+    width: 300px;
+    height: 174px;
+    margin: 0 auto;
+}
+
+.banner-img img {
+    display: block;
+    width: 300px;
+    height: 174px;
+    margin: 0 auto;
+}
+
+.btn.play {
+    width: 300px;
+    margin: 10px auto 30px;
+    display: block;
+}
+
+/* Main menu */
+
+.click-menu {
+    background: #33313c;
+}
+
+.click-filter {
+    background: #565261 !important;
+}
+
+.main-menu {
+    position: relative;
+    background: #272430;
+    padding-top: 20px;
+}
+
+.lights {
+    position: absolute;
+    background: url("../img/lights_pattern_31x37.png") repeat-x 0 0;
+    height: 37px;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.menu-list li {
+    display: block;
+    height: 50px;
+    border-bottom: 1px solid #33313c;
+    text-align: center;
+}
+
+/* Payment systems - footer */
+
+.payment-systems-footer {
+    padding-top: 15px;
+    background: #191620;
+}
+
+.payment-list {
+    text-align: center;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.payment-list li.logo {
+    display: inline-block;
+    margin: 0 1px 10px 0;
+    height: 25px;
+    max-width: 100%;
+    background-size: 100%;
+    background-image: url("../img/footer_logo/sprite_1X.png");
+}
+
+.payment-list li.logo.visa {
+    width: 48px;
+    background-position: 0 15.384615%;
+    background-size: 148.333333% !important;
+}
+
+.payment-list li.logo.mastercard {
+    width: 40px;
+    background-position: 0 38.461538%;
+    background-size: 178% !important;
+}
+
+.payment-list li.logo.maestro {
+    width: 40px;
+    background-position: 0 30.769231%;
+    background-size: 178% !important;
+}
+
+.payment-list li.logo.qiwi {
+    width: 24px;
+    background-position: 0 69.230769%;
+    background-size: 296.666667% !important;
+}
+
+.payment-list li.logo.webmoney {
+    width: 26px;
+    background-position: 0 53.846154%;
+    background-size: 269.69697% !important;
+}
+
+.payment-list li.logo.yandex-money {
+    width: 21px;
+    background-position: 0 84.615385%;
+    background-size: 329.62963% !important;
+}
+
+.payment-list li.logo.w1 {
+    width: 41px;
+    background-position: 0 23.076923%;
+    background-size: 174.509804% !important;
+}
+
+.payment-list li.logo.mail-money {
+    width: 26px;
+    background-position: 0 46.153846%;
+    background-size: 269.69697% !important;
+}
+
+.payment-list li.logo.privat-24 {
+    width: 23px;
+    background-position: 0 76.923077%;
+    background-size: 317.857143% !important;
+}
+
+.payment-list li.logo.alfa-click {
+    width: 16px;
+    background-position: 0 92.307692%;
+    background-size: 423.809524% !important;
+}
+
+.payment-list li.logo.interkassa {
+    width: 16px;
+    background-position: 0 100%;
+    background-size: 445% !important;
+}
+
+.payment-list li.logo.skrill {
+    width: 71px;
+    background-position: 0 0;
+    background-size: 100% !important;
+}
+
+.payment-list li.logo.liqpay {
+    width: 24px;
+    background-position: 0 61.57%;
+    background-size: 296.666667% !important;
+}
+
+.payment-list li.logo.moneta {
+    width: 58px;
+    background-position: 0 7.692308%;
+    background-size: 121.917808% !important;
+}
+
+/* Footer */
+
+.foot-logo {
+    background-position: 0 0;
+    height: 30px;
+    width: 60px;
+    margin: 20px auto 0 auto;
+}
+
+.copyright {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.foot-menu {
+    margin: 15px auto 25px !important;
+}
+
+/* Games.html - list of games */
+
+.section-header.arrow {
+    position: relative;
+}
+
+.section-header.arrow:before {
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    left: 13%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #33323d transparent transparent transparent;
+}
+
+.items-list.games-list {
+    background: #24252e;
+    padding-bottom: 20px;
+    width: 300px;
+    margin: 10px auto 0;
+}
+
+.items-list.games-list .list-item {
+    position: relative;
+    width: 145px;
+    height: 114px;
+    margin-bottom: 10px;
+}
+
+.items-list.games-list .list-item:nth-child(odd) {
+    margin-right: 5px;
+}
+
+.list-item .frame.in-game {
+    margin-top: -5px;
+}
+
+.games-menu {
+    margin: 20px 0 20px 0;
+}
+
+.games-menu li {
+    display: inline-block;
+}
+
+.games-menu a {
+    display: block;
+    text-decoration: none;
+    color: #44404f;
+    font-family: "Tahoma", sans-serif;
+    font-weight: 400;
+    font-size: 1.125em; /* 18px / 16px */
+}
+
+.games-menu a.active {
+    color: #fff;
+}
+
+.jackpot-in-game {
+    position: absolute;
+    font-weight: 700;
+    text-transform: uppercase;
+    top: 0.5em;
+    right: 0;
+    z-index: 2;
+    text-align: right;
+    max-width: 80%;
+    font-family: "PT Sans", sans-serif;
+    font-size: 0.75em;
+    color: #acd373;
+}
+
+.jackpot-in-game span {
+    background: rgba(0, 0, 0, 0.5);
+    line-height: 1.5em; /* 24px / 16px */
+    padding: 0.5em 0.9375em 0.5em 0.9375em;
+    border: 1px solid #000;
+}
+
+/* payment-systems.html */
+
+.wallet .section-name {
+    margin-left: 15px;
+}
+
+.payment-systems-list {
+    padding-bottom: 20px;
+    background: #24242e;
+}
+
+.description {
+    font-size: 0.875em; /* 14px / 16px */
+    margin: 20px auto;
+}
+
+.description.add {
+    margin: 30px auto;
+}
+
+.description.short-width {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.payment-figure-list {
+    margin: 0 auto;
+    width: 300px;
+}
+
+li.payment-item {
+    position: relative;
+    display: inline-block;
+    width: 146px;
+    height: 90px;
+    margin-right: -4px;
+    background-color: #24272f;
+    background-image: url("../img/bg-wallet.png");
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    box-shadow: inset 0 0 7px 0 #31435f;
+    margin-bottom: 10px;
+}
+
+li.payment-item .logotype {
+    position: absolute;
+    top: 10px;
+    left: 11px;
+    width: 126px;
+    height: 65px;
+    z-index: 1000;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-size: 100%;
+    background-image: url('../img/wallet/wallet_sprite.png');
+}
+
+li.payment-item .logotype.alfa-click {
+    background-position: 0 0;
+}
+
+li.payment-item .logotype.visa {
+    background-position: 0 71.449814%;
+}
+
+li.payment-item .logotype.skrill {
+    background-position: 0 61.040892%;
+}
+
+li.payment-item .logotype.yandex-money {
+    background-position: 0 90.583942%;
+    background-size: 103.278689% !important;
+    height: 57px;
+    top: 15px;
+}
+
+li.payment-item .logotype.liqpay {
+    background-position: 0 16.654275%;
+}
+
+li.payment-item .logotype.w1 {
+    background-position: 0 100%;
+    background-size: 180% !important;
+    width: 70px;
+    height: 60px;
+    left: 37px;
+    top: 14px;
+}
+
+li.payment-item .logotype.webmoney {
+    background-position: 0 81.858736%;
+}
+
+li.payment-item .logotype.qiwi {
+    background-position: 0 50.63197%;
+}
+
+li.payment-item .logotype.privat-24 {
+    background-position: 0 43.420127%;
+    height: 27px;
+    top: 30px;
+}
+
+li.payment-item .logotype.interkassa {
+    background-position: 0 9.992862%;
+    height: 37px;
+    top: 25px;
+}
+
+li.payment-item .logotype.mail-money {
+    background-position: 0 27.063197%;
+}
+
+li.payment-item .logotype.moneta {
+    background-position: 0 36.734694%;
+    height: 52px;
+    top: 18px;
+}
+
+/* Bonus_open.html */
+
+.big-size.bonus-open {
+    padding-bottom: 0;
+    background: #20232b;
+    margin-top: 20px;
+}
+
+.bonus.description {
+    margin: 0 0 20px 0;
+    background: #21232c;
+}
+
+.bonus-open .frame {
+    background: none !important;
+    border: none;
+    box-shadow: none;
+}
+
+.tournaments.bonus-opened {
+    margin-bottom: 20px;
+}
+
+/* Modal Pattern */
+
+tr.modal-pattern {
+    background: #272430;
+    vertical-align: top;
+}
+
+header.modal-pattern .center-wrapper {
+    position: relative;
+}
+
+.modal-main-head {
+    padding-top: 15px;
+    font-weight: 400;
+    display: block;
+    font-family: "PT Sans", sans-serif;
+    font-size: 1.375em;
+    max-width: 80%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-top: 5px;
+}
+
+.modal-main-head.cashbox {
+    font-size: 1.75em;
+}
+
+.btn.close {
+    position: absolute;
+    top: 4px;
+    right: 0;
+    width: 58px;
+    height: 58px;
+    background-image: url("../img/close-btn.png");
+    z-index: 10;
+}
+
+.btn.close.cashbox {
+    top: 1px;
+    right: -6px;
+}
+
+.shadow-gradient {
+    height: 15px;
+    background-color: #23212b;
+    border-bottom: 1px solid #1f1d25;
+    background-image: -webkit-linear-gradient(#26232f, #211f29 50%, #1f1d25);
+    background-image: -o-linear-gradient(#26232f, #211f29 50%, #1f1d25);
+    background-image: linear-gradient(#26232f, #211f29 50%, #1f1d25);
+    background-repeat: no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#26232f", endColorstr="#1f1d25", GradientType=0);
+}
+
+.head-gradient {
+    position: absolute;
+    top: 5px;
+    height: 111px;
+    z-index: 20;
+    width: 100%;
+    background: url("../img/gradient.png") repeat 0 0 transparent;
+}
+
+.payment-logo {
+    position: relative;
+    margin: 20px auto 20px auto;
+    width: 158px;
+    height: 158px;
+    background-color: #221f28;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.payment-logo-item {
+    position: absolute;
+    top: 47px;
+    left: 21px;
+    width: 116px;
+    height: 64px;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-size: 100%;
+    background-image: url('../img/wallet/wallet_sprite.png');
+    background-position: 0 71.113502%;
+}
+
+.modal-middle-head {
+    text-align: center;
+    font-size: 1.125em;
+    font-family: "PT Sans", sans-serif;
+    text-transform: uppercase;
+    max-width: 100%;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.modal-description {
+    font-size: 0.875em; /* 14px / 16px */
+    line-height: 1.125em;
+    text-align: left;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+.modal-head {
+    font-weight: 400;
+    max-width: 98%;
+    margin: 30px auto 20px;
+    color: #9075e0;
+    font-size: 1.125em; /* 18px / 16px */
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.modal-head.cashbox {
+    margin: 22px auto 3px;
+    font-size: 1.125em;
+    color: #a384ff;
+}
+
+.checked-list li {
+    font-size: 0.875em; /* 14px / 16px */
+    list-style: none;
+    position: relative;
+    padding-left: 25px;
+}
+
+.checked-list li:before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 15px;
+    height: 10px;
+    background-position: 0 100%;
+    background-size: 800% !important;
+    top: 5px;
+    left: 2px;
+}
+
+.modal-information.bordered {
+    padding-top: 20px;
+    border-top: 1px solid #fff;
+}
+
+a.link {
+    display: inline-block;
+    color: #009cff;
+}
+
+.btn.open-account {
+    display: block;
+    margin: 30px auto;
+    width: 195px;
+}
+
+.modal-section-name {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: initial;
+    font-size: 1.125em;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.modal-section-name:before,
+.modal-section-name:after {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    top: 50%;
+    height: 1px;
+    background: #fff;
+    width: 115px;
+}
+
+.modal-section-name:before {
+    left: -115px;
+}
+
+.modal-section-name:after {
+    right: -115px;
+}
+
+.modal-section-name.restore:before,
+.modal-section-name.restore:after {
+    width: 39px;
+}
+
+.modal-section-name.restore:before {
+    left: -39px;
+}
+
+.modal-section-name.restore:after {
+    right: -39px;
+}
+
+/* Outline: none */
+
+input:focus {
+    outline-width: 0;
+}
+
+input {
+    outline: 0;
+    outline-width: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+input.form-field {
+    height: 45px;
+    width: 100%;
+    padding-left: 10px;
+    color: #222;
+    font-size: 1.125em;
+    margin-bottom: 10px;
+}
+
+.form-field ::-webkit-input-placeholder {
+    color: #999;
+}
+
+.form-field ::-moz-placeholder {
+    color: #999;
+}
+
+.form-field :-ms-input-placeholder {
+    color: #999;
+}
+
+.btn.submit {
+    width: 100%;
+}
+
+.condition {
+    position: relative;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+.condition:before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 16px;
+    right: 14px;
+    width: 14px;
+    height: 14px;
+}
+
+.condition.success:before {
+    background-position: 0 90.15025%;
+    background-size: 428.571429% !important;
+}
+
+.condition.fail:before {
+    background-position: 0 93.322204%;
+    background-size: 428.571429% !important;
+}
+
+input[type="submit"] {
+    border: 0;
+    width: 100%;
+    padding-top: 3px !important;
+}
+
+input[type="submit"].bonus {
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-wrapper.enter-center.input {
+    position: relative;
+}
+
+a.link.block {
+    position: absolute;
+    bottom: -25px;
+    right: 0;
+    text-decoration: none;
+    text-align: right;
+}
+
+.registration-or-enter {
+    margin-bottom: 60px;
+}
+
+.social-network-list {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0 auto 20px;
+}
+
+li.social-item {
+    position: relative;
+    display: inline-block;
+    margin-right: 1px;
+    width: 75px;
+    height: 75px;
+    background: #373344;
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.5),
+    inset 0 0 5px 0 rgba(72, 72, 72, 0.6);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.enter-block {
+    margin-top: 30px;
+}
+
+li.social-item:first-child {
+    margin-right: 2px;
+}
+
+.logo-social {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 13px;
+    left: 13px;
+    height: 50px;
+    width: 50px;
+}
+
+.logo-social.vk {
+    background-position: 0 55.062167%;
+    background-size: 120% !important;
+}
+
+.logo-social.fb {
+    background-position: 0 15.98579%;
+    background-size: 120% !important;
+}
+
+.logo-social.tw {
+    background-position: 0 45.293073%;
+    background-size: 120% !important;
+}
+
+.logo-social.gmail {
+    background-position: 0 25.754885%;
+    background-size: 120% !important;
+}
+
+.logo-social.ok {
+    background-position: 0 35.523979%;
+    background-size: 120% !important;
+}
+
+.logo-social.mail {
+    background-position: 0 6.216696%;
+    background-size: 120% !important;
+}
+
+.logo-social.yandex {
+    background-position: 0 64.831261%;
+    background-size: 120% !important;
+}
+
+.social-description {
+    text-align: center;
+    font-size: 0.75em;
+    color: #888;
+}
+
+.social-description.accept {
+    font-size: 0.875em;
+    margin: 15px auto 45px;
+}
+
+.social-description.points {
+    margin: 10px auto 40px;
+}
+
+.social-description.accept.tournament {
+    margin: 0 auto 20px;
+}
+
+.social-description.text {
+    font-size: 0.875em;
+    margin: 15px auto;
+    text-align: left;
+}
+
+.social-description.text.last {
+    margin-bottom: 20px;
+}
+
+.social-description.accept a.link {
+    color: #068be3;
+}
+
+.social-description.accept-small-size {
+    font-size: 0.6875em;
+    margin-bottom: 15px;
+}
+
+.social-description.accept-small-size a.link {
+    color: #1175be;
+}
+
+a.link.tour {
+    text-transform: uppercase;
+}
+
+.social-frame {
+    margin: 30px 0 30px 0;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    font-size: 1.125em;
+    line-height: 1.5em;
+    background: #373344;
+    border: 1px solid #0f0e13;
+}
+
+.btn.close.enter {
+    top: 3px;
+}
+
+.registration-or-enter.registration .modal-section-name {
+    max-width: 45%;
+}
+
+.registration-or-enter.registration .modal-section-name:before,
+.registration-or-enter.registration .modal-section-name:after {
+    width: 82px;
+}
+
+.registration-or-enter.registration .modal-section-name:before {
+    left: -82px;
+}
+
+.registration-or-enter.registration .modal-section-name:after {
+    right: -82px;
+}
+
+.registration-or-enter.registration {
+    margin: 20px auto 40px;
+}
+
+.centered .section-name {
+    margin-left: 0;
+}
+
+.centered.filter {
+    position: relative;
+}
+
+.arrow-in-filter {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 20px;
+    right: 90px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 5px 0 5px;
+    border-color: #009cff transparent transparent transparent;
+    z-index: 15000;
+}
+
+/* Menu.html */
+
+body.menu {
+    background: #0f0e13;
+}
+
+.menu-pattern {
+    height: 80px;
+    position: relative;
+}
+
+.left-menu-bg {
+    position: absolute;
+    width: 164px;
+    height: 150px;
+    top: 0;
+    left: 0;
+    background-image: url("../img/left-menu-bg.png");
+}
+
+.menu-logo {
+    position: absolute;
+    top: 28px;
+    left: 20px;
+    width: 135px;
+    height: 21px;
+    background-image: url("../img/logo-menu_135x21.png");
+}
+
+.main-menu-list li {
+    border-top: 1px solid #1c2935;
+    list-style: none;
+    height: 50px;
+}
+
+.main-menu-list li:last-child {
+    border-bottom: 1px solid #1c2935;
+    margin-bottom: 45px;
+}
+
+.main-menu-list a {
+    padding-left: 20px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-family: "PT Sans", sans-serif;
+    font-size: 1.125em;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.main-menu-separate .btn {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn.close.menu {
+    top: 7px;
+    right: 10px;
+}
+
+.games-list-filter {
+    margin-top: 27px;
+    margin-bottom: 25px;
+}
+
+.games-list-filter li {
+    list-style: none;
+    font-weight: 700;
+    background: #fff;
+    border-bottom: 1px solid #c9c8cc;
+    height: 40px;
+}
+
+.games-list-filter li:first-child {
+    height: 50px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.games-list-filter li:last-child {
+    height: 50px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.games-list-filter a {
+    font-size: 0.875em;
+    display: block;
+    color: #171717;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+.games-list-filter a.first,
+.games-list-filter a.last {
+    line-height: 50px;
+}
+
+#filter-open {
+    display: none;
+    z-index: 1000;
+}
+
+.center-wrapper.filter-open-list {
+    width: 300px;
+    z-index: 1000;
+}
+
+.myClose {
+    top: 15px !important;
+    left: 240px !important;
+}
+
+.top-close {
+    top: -35px !important;
+    left: 130px !important;
+}
+
+.fancybox-close.myClose:after {
+    top: 4px;
+}
+
+/* Tablet version */
+
+.tablets-smartphones {
+    width: 100%;
+    border-collapse: collapse;
+    border: 0;
+}
+
+.tablet-version {
+    display: none;
+}
+
+.games-list-pattern {
+    margin-top: -20px;
+}
+
+.games-list-tablet li {
+    display: block;
+    height: 35px;
+}
+
+.games-list-tablet li a {
+    display: block;
+    font-size: 0.875em; /* 14px / 16px */
+    font-weight: 700;
+    line-height: 35px;
+    color: #312f37;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.games-list-tablet li a.first {
+    font-size: 0.75em; /* 12px / 16px */
+    text-transform: uppercase;
+    color: #5c5a61
+}
+
+.click-tablet-menu {
+    background: #121a22;
+}
+
+/* Cashbox.html */
+
+.cashbox-menu {
+    margin: 10px auto 0;
+    width: 300px;
+}
+
+.cashbox-menu-item {
+    display: inline-block;
+    width: 96px;
+    height: 67px;
+    margin-right: 0;
+    background: #373344;
+    border: 1px solid #4c4856;
+}
+
+.cashbox-menu-item:last-child {
+    margin-right: 0 !important;
+}
+
+.cashbox-menu-item.text-only {
+    height: 35px;
+    width: 145px;
+    padding-top: 8px;
+    margin-right: -4px;
+}
+
+.cashbox-menu-item.text-only:first-child {
+    margin-right: 5px;
+}
+
+.cashbox-description {
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+    font-size: 0.75em;
+    color: #b8b3ca;
+}
+
+.cashbox-menu-item.active {
+    background: #1d1a29;
+    border: 1px solid #302c3e;
+}
+
+.cashbox-icon {
+    display: block;
+    margin: 7px auto 4px;
+    width: 34px;
+    height: 34px;
+}
+
+.cashbox-menu-item.history .cashbox-icon {
+    background-image: url("../img/history_55x55.png");
+}
+
+.cashbox-menu-item.refill .cashbox-icon {
+    background-image: url("../img/refill_55x55.png");
+}
+
+.cashbox-menu-item.win .cashbox-icon {
+    background-image: url("../img/win_55x55.png");
+}
+
+.tabs-section-name {
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    background: #272430;
+    font-family: "PT Sans", sans-serif;
+    font-size: 1em;
+}
+
+.history-item:first-child .transaction-name {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.history-item:last-child .transaction-details {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.history-item {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8125em;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.transaction-name {
+    padding: 7px 0 0 10px;
+    text-align: left;
+    height: 31px;
+    background: #d9d9dd;
+    color: #3d3f41;
+}
+
+.transaction-details {
+    padding: 14px 0 14px 10px;
+}
+
+.transaction-details p {
+    color: #000;
+}
+
+.transaction-details:nth-child(even) {
+    background: #edf2f5;
+}
+
+.transaction-details p span {
+    font-weight: 700;
+    text-transform: lowercase;
+}
+
+#refill,
+#win {
+    margin-top: 10px;
+}
+
+.payment-list-cashbox-item {
+    display: inline-block;
+    margin-right: -1px;
+    width: 148px;
+    height: 70px;
+    background: #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.payment-list-cashbox-item.active {
+    background: #29353e;
+    box-shadow: 0 0 2px 2px #23212b;
+}
+
+.payment-list-cashbox-item.active .payment-logo-cashbox {
+    background: #29353e;
+}
+
+.payment-logo-cashbox {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    bottom: 6px;
+    right: 6px;
+    background: #f0f0f0;
+    box-shadow: 0 0 2px 2px #f0f0f0;
+    z-index: 100;
+}
+
+.payment-list-cashbox-item:hover .payment-logo-cashbox,
+.payment-list-cashbox-item:hover {
+    box-shadow: none;
+    background: #fff;
+}
+
+.payment-list-cashbox-item.active .payment-logo-cashbox {
+    box-shadow: none;
+}
+
+.payment-list-cashbox-item .payment-logo-cashbox .logotype-cash {
+    position: absolute;
+    z-index: 5;
+    max-width: 100%;
+    background-size: 100%;
+    background-image: url("../img/cashbox/wallet_in_cash.png");
+}
+
+.payment-list-cashbox-item.alfa-click .payment-logo-cashbox .logotype-cash {
+    width: 125px;
+    height: 35px;
+    left: 9px;
+    top: 14px;
+    background-position: 0 0;
+}
+
+.payment-list-cashbox-item.skrill .payment-logo-cashbox .logotype-cash {
+    width: 96px;
+    height: 50px;
+    left: 21px;
+    top: 5px;
+    background-position: 0 100%;
+    background-size: 129% !important;
+}
+
+.payment-list-cashbox-item.qiwi .payment-logo-cashbox .logotype-cash {
+    width: 125px;
+    height: 48px;
+    left: 7px;
+    top: 7px;
+    background-position: 0 44.214876%;
+}
+
+.payment-list-cashbox-item.neteller .payment-logo-cashbox .logotype-cash {
+    width: 125px;
+    height: 22px;
+    left: 7px;
+    top: 20px;
+    background-position: 0 31.343284%;
+}
+
+.payment-list-cashbox-item.webmoney .payment-logo-cashbox .logotype-cash {
+    width: 125px;
+    height: 36px;
+    left: 7px;
+    top: 13px;
+    background-position: 0 61%;
+    background-size: 100%;
+}
+
+.payment-list-cashbox-item.yandex-money .payment-logo-cashbox .logotype-cash {
+    width: 120px;
+    height: 50px;
+    left: 9px;
+    top: 3px;
+    background-position: 0 78.75%;
+    background-size: 104.166667% !important;
+}
+
+.payment-list-cashbox-item.moneta .payment-logo-cashbox .logotype-cash {
+    width: 125px;
+    height: 47px;
+    left: 9px;
+    top: 5px;
+    background-position: 0 14.814815%;
+}
+
+.modal-section-name.cashbox {
+    font-size: 0.875em;
+    font-weight: 400;
+}
+
+.modal-section-name.cashbox.another:before,
+.modal-section-name.cashbox.another:after {
+    width: 90px;
+}
+
+.modal-section-name.cashbox.another:before {
+    left: -90px;
+}
+
+.modal-section-name.cashbox.another:after {
+    right: -90px;
+}
+
+.sum {
+    margin: 10px auto 10px;
+    width: 100%;
+}
+
+.sum .sum-item {
+    list-style: none;
+    display: inline-block;
+    margin: 0 0 8px 18px;
+    height: 26px;
+}
+
+.radio,
+.checkbox {
+    display: inline-block;
+    margin-right: 4px;
+    width: 25px;
+    height: 26px;
+    background: url("../img/cashbox/radio.png") no-repeat;
+}
+.radio:hover {
+    background-position: 0 -52px !important;
+}
+
+.checkbox {
+    width: 25px;
+    height: 25px;
+    margin-right: -2px;
+    background-image: url("../img/cashbox/checkbox-sprite.png");
+}
+
+form.amount-of-money {
+    margin: 10px auto 0;
+}
+
+.sum-of-money {
+    text-align: center;
+    display: block;
+    max-width: 90%;
+    margin: 10px auto 35px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 0.8125em;
+}
+
+.amount {
+    position: relative;
+    top: -6px;
+    display: inline-block;
+    margin-right: -4px;
+    font-family: "Arial", sans-serif;
+    font-size: 1em;
+}
+
+.cashbox-input {
+    position: relative;
+    top: -7px;
+    display: inline-block;
+    height: 35px;
+    padding-left: 10px;
+    color: #000;
+    border: 1px solid #b7bac2;
+    background: #edf0f4;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 225px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.25em;
+    margin-right: 3px;
+    margin-left: -2px;
+}
+
+.input-wrapper {
+    position: relative;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-wrapper.telephone-number {
+    margin: 20px auto 15px;
+}
+
+.input-wrapper.skype {
+    margin: 15px auto 20px;
+}
+
+.input-wrapper.birth-date {
+    margin-bottom: 25px;
+}
+
+.cashbox-input.skype {
+    width: 245px;
+}
+
+.cashbox-input.telephone-number {
+    width: 226px;
+}
+
+label.valuta {
+    position: absolute;
+    right: 16px;
+    top: 5px;
+    display: inline-block;
+    margin-right: -4px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 0.8125em;
+}
+
+label.sign {
+    display: inline-block;
+    margin-right: 6px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 0.875em;
+    position: relative;
+    top: -7px;
+}
+
+input#account {
+    width: 250px;
+    margin: 20px 0 10px;
+}
+
+input#secret-id {
+    width: 117px;
+}
+
+label.remember {
+    width: initial;
+    position: relative;
+    top: -6px;
+}
+
+label.sign.for-checkbox {
+    top: -5px;
+}
+
+.input-wrapper.remember-checkbox {
+    margin: 5px auto 0;
+}
+
+.input-wrapper.remember-checkbox.win {
+    margin-bottom: 20px;
+}
+
+.input-wrapper.another {
+    margin-top: 10px;
+}
+
+.radio.another {
+    position: relative;
+    top: 7px;
+}
+
+.type {
+    left: 0;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8125em;
+    margin-right: 10px;
+    position: relative;
+    top: -12px;
+}
+
+.type.without-input {
+    top: 0;
+    width: 300px;
+    text-align: left;
+    margin: 20px auto 0;
+    display: block;
+}
+
+.input-wrapper.another.without-sum {
+    margin-bottom: 40px;
+}
+
+.input-phone-number {
+    position: relative;
+    width: 300px;
+    margin: 20px auto 17px;
+    font-family: "Arial", sans-serif;
+    font-weight: 700;
+    color: #000;
+    border: 1px solid #b7bac2;
+    background: #edf0f4;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.input-phone-number.win {
+    margin-top: 30px;
+}
+
+.country-flag {
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    display: inline-block;
+    margin-right: 6px;
+    width: 16px;
+    height: 16px;
+    background-image: url("../img/cashbox/russia_flag_16x16.png");
+}
+
+.code-country-number {
+    display: inline-block;
+    left: 32px;
+    position: absolute;
+    width: 40px;
+    padding-top: 9px;
+    height: inherit;
+}
+
+.phone-number {
+    display: inline-block;
+    position: absolute;
+    left: 70px;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    border: 0;
+    padding-top: 3px;
+    background: #edf0f4;
+}
+
+input#wmid,
+input#yandex {
+    width: 245px;
+}
+
+input#number-of-card {
+    width: 195px;
+    position: absolute;
+    top: -14px;
+    right: 0;
+    margin: 0;
+}
+
+.input-wrapper.number-of-card {
+    margin: 40px auto 37px;
+}
+
+.input-with-arrows {
+    display: inline-block;
+    width: 85px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 35px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    border: 1px solid #b7bac2;
+    background: #edf0f4;
+    color: #000;
+}
+
+.arrows {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 35px;
+    background-repeat: no-repeat;
+    z-index: 50;
+    background-color: #f2f2f2;
+    background-image: url("../img/cashbox/arrows.png");
+    background-size: 7px 17px;
+    background-position: center center;
+    top: 0;
+    right: 0;
+    border-left: 1px solid #cdd1d9;
+}
+
+input.date-input {
+    border: 0;
+    height: 35px;
+    width: 85px;
+    background: #edf0f4;
+    padding-left: 10px;
+    color: #000;
+    font-size: 0.75em; /* 12px / 16px */
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+}
+
+input.date-input ::-webkit-input-placeholder {
+    color: #000;
+    font-size: 0.75em; /* 12px / 16px */
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+}
+
+input.date-input ::-moz-placeholder {
+    color: #000;
+    font-size: 0.75em; /* 12px / 16px */
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+}
+
+input.date-input :-ms-input-placeholder {
+    color: #000;
+    font-size: 0.75em; /* 12px / 16px */
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+}
+
+label.sign.period,
+label.sign.date {
+    top: -12px;
+}
+
+.input-wrapper.select {
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label.sign.date {
+    margin-right: 0;
+    left: 102px;
+}
+
+label.sign.cardholder,
+label.sign.email {
+    margin: 0 auto 6px;
+    display: block;
+    width: 300px;
+    text-align: left;
+}
+
+label.sign.email {
+    margin-top: 30px;
+}
+
+input#cardholder,
+input#email {
+    width: 300px;
+}
+
+.input-wrapper.period {
+    margin-bottom: 15px;
+}
+
+.input-wrapper.wmid {
+    margin-top: 20px;
+}
+
+.input-wrapper.cvv-cvc {
+    margin-top: 17px;
+}
+
+input#cvv-cvc {
+    width: 90px;
+}
+
+label.type.sign {
+    top: -12px;
+}
+
+.cashbox-menu.show {
+    margin-top: 20px;
+}
+
+.modal-information.another-amount.win {
+    margin-top: 30px;
+}
+
+label.valuta.win {
+    top: 4px;
+}
+
+.cashbox-input.win {
+    width: 200px;
+}
+
+.cashbox-input.user-name {
+    width: 256px;
+}
+
+.input-wrapper.user-name {
+    margin: 35px auto 8px;
+}
+
+.input-wrapper.another.without-sum.win {
+    margin-bottom: 30px;
+}
+
+.input-wrapper.remember-checkbox.webmoney,
+.input-wrapper.remember-checkbox.yandex {
+    margin: 10px auto;
+}
+
+.input-wrapper.webmoney {
+    margin-top: 20px;
+}
+
+.input-wrapper.yandex {
+    margin-top: 35px;
+}
+
+.modal-main-head.big-size {
+    font-size: 1.75em;
+}
+
+.description-in-cashbox {
+    display: block;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.875em;
+    margin: 15px auto;
+    width: 280px;
+}
+
+.bonus-in-cashbox {
+    width: 300px;
+    margin: 0 auto 10px;
+    background: #2d201a;
+    border: 1px solid #4d4d4d;
+    box-shadow: 0 0 7px 1px #000,
+    0 0 2px rgba(255,255,255,0.2) inset;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.bonus-in-cashbox:last-child {
+    margin-bottom: 20px;
+}
+
+.bonus-name-cashbox {
+    width: 270px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 15px auto 18px;
+}
+
+.wrapper-bonus-desc {
+    position: relative;
+    display: inline-block;
+    width: 190px;
+    text-align: left;
+    margin-left: 96px;
+    font-family: "Roboto", sans-serif;
+}
+
+.bonus-active-img.in-cashbox {
+    position: absolute;
+    display: block;
+    top: -3px;
+    left: -90px;
+    margin: 0 !important;
+    width: 85px;
+    height: 85px;
+}
+
+.bonus-desc {
+    font-size: 0.75em;
+    margin-bottom: 10px;
+}
+
+.bonus-time-desc {
+    font-size: 0.6875em;
+    color: #caac8d;
+}
+
+.bonus-time {
+    margin-bottom: 20px;
+    font-size: 1.75em;
+    color: #caac8d;
+}
+
+.bonus-time .hours,
+.bonus-time .minutes,
+.bonus-time .seconds,
+.bonus-time p {
+    display: inline-block;
+    margin-right: -4px;
+}
+
+.btn.yellow.in-cashbox {
+    width: 280px;
+    margin-bottom: 20px;
+}
+
+.warning {
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 14px;
+    left: 84px;
+    background: url("../img/cashbox/sprite/cashbox-icons.png") no-repeat -3px -58px;
+}
+
+.choose-game {
+    margin: 0 auto 17px;
+    padding-top: 22px;
+    width: 240px;
+    text-transform: uppercase;
+    font: 1em Arial;
+}
+
+.games-block {
+    position: relative;
+    margin: 0 auto 20px;
+    width: 280px;
+    background: #7a5444;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.games-block:before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: -11px;
+    left: 90px;
+    height: 0;
+    border-style: solid;
+    border-width:  0 6px 12px 6px;
+    border-color: transparent transparent #7a5444 transparent;
+}
+
+.lines {
+    width: 270px;
+    margin: 0 auto 25px;
+}
+
+.first-line {
+    height: 1px;
+    background: #4c362a;
+}
+
+.second-line {
+    height: 1px;
+    background: #a27b65;
+}
+
+.games-in-bonus {
+    width: 231px;
+    margin: 30px auto 17px;
+}
+
+.games-in-bonus-item {
+    position: relative;
+    display: inline-block;
+    margin-right: -4px;
+    margin-bottom: 25px;
+    background: #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    box-shadow: 0 0 7px 3px rgba(0,0,0,0.5),
+    0 0 4px rgba(255,255,255,0.3) inset;
+    width: 105px;
+    height: 60px;
+}
+
+.games-in-bonus-item.hover:before {
+    position: absolute;
+    display: block;
+    border: 1px solid #4c3429;
+    content: "";
+    width: 125px;
+    height: 80px;
+    top: -10px;
+    left: -10px;
+    background: #664537;
+    box-shadow: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    z-index: -1;
+}
+
+.games-in-bonus-item:nth-child(odd) {
+    margin-right: 16px;
+}
+
+.games-in-bonus-item.selected,
+.games-in-bonus-item.hover {
+    position: relative;
+    z-index: 10;
+}
+
+.games-in-bonus-item.selected:before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 125px;
+    height: 80px;
+    top: -10px;
+    left: -10px;
+    background: #664537;
+    box-shadow: 0 0 30px 3px #000 inset;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    z-index: -1;
+}
+
+.games-in-bonus-item:last-child {
+    margin-bottom: 30px;
+}
+
+.games-in-bonus-item img {
+    width: 105px;
+    height: 60px;
+    border: 1px solid #2f2d2c;
+}
+
+.games-in-bonus-item.selected img {
+    border: 1px solid #fff;
+}
+
+.games-in-bonus-item.hover img
+{
+    border: 1px solid #2d2d2d;
+}
+
+/* Authorization */
+
+.auth-description {
+    font-size: 0.75em; /* 12px / 16px */
+    text-align: center;
+    color: #b7b7b7;
+    margin-bottom: 25px;
+}
+
+/* Bonus is active */
+
+.bonus-active-img {
+    width: 85px;
+    height: 85px;
+    margin: 30px auto 40px;
+    background: url("../img/bonuses.png") no-repeat 0 0;
+    background-size: cover;
+}
+
+.bonus-active-img.accept {
+    margin: 30px auto 25px;
+}
+
+/* Cash back */
+
+.logo-cashback {
+    width: 206px;
+    height: 105px;
+    margin: 10px auto 0;
+    background-image: url("../img/logo_cashback_312x159.png");
+}
+
+.tapestry {
+    font-weight: 700;
+    font-size: 0.8125em;
+    padding: 80px 60px;
+    margin: 0 auto 30px;
+    text-align: center;
+    background-image: url("../img/tapestry_450x311.png");
+    width: 313px;
+    height: 216px;
+}
+
+/* Add money */
+
+.not-enough-money {
+    margin: 40px auto 50px;
+    width: 100px;
+    height: 64px;
+    background-image: url("../img/not_enough_money_200x128.png");
+}
+
+/* Choice of cash */
+
+.cash-list {
+    margin: 25px auto 15px;
+    max-width: 310px;
+}
+
+.cash-list-item {
+    display: inline-block;
+    margin-right: -1px;
+    position: relative;
+    height: 77px;
+    width: 100px;
+    border: 1px solid #4c4856;
+    background: #373344;
+}
+
+.cash {
+    position: absolute;
+    top: 22px;
+}
+
+.cash-list-item.dollar .cash {
+    top: 20px;
+    right: 26px;
+    width: 26px;
+    height: 38px;
+    background-image: url("../img/dollar_52x76.png");
+}
+
+.cash-list-item.euro .cash {
+    right: 24px;
+    width: 29px;
+    height: 34px;
+    background-image: url("../img/euro_58x68.png");
+}
+
+.cash-list-item.rouble .cash {
+    right: 22px;
+    width: 30px;
+    height: 34px;
+    background-image: url("../img/rouble_60x68.png");
+}
+
+.radio-wrapper {
+    position: absolute;
+    width: 25px;
+    height: 26px;
+    top: 26px;
+    left: 21px;
+}
+
+/* Tournament win */
+
+.tournament-win-image {
+    position: relative;
+    width: 282px;
+    height: 116px;
+    border: 3px solid #0c0b0e;
+    box-shadow: 0 0 20px 1px #423447;
+    margin: 30px auto 15px;
+    background-image: url("../img/tournament-win_420x168.png");
+    background-position: center center;
+    background-color: #0c0b0e;
+    background-size: 276px 110px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.win-place {
+    font-size: 1.375em;
+    text-align: center;
+    margin: 25px auto 20px;
+    padding: 13px 5px;
+    border: 1px solid #4c4856;
+    background: #373344;
+}
+
+.tournament-win-image.prize-place {
+    margin: 55px auto 25px;
+    background-image: url("../img/tour-prize-place-bg_420x167.png");
+}
+
+.modal-information .center-wrapper {
+    position: relative;
+}
+
+.win-cup {
+    position: absolute;
+    top: -25px;
+    width: 288px;
+    height: 289px;
+    margin: 0 auto;
+    z-index: 50;
+}
+
+.win-cup.first-place {
+    background-image: url("../img/tour-1place_400x416.png");
+}
+
+.win-cup.second-place,
+.win-cup.third-place {
+    top: 0;
+    right: 30px;
+    width: 232px;
+    height: 273px;
+}
+
+.win-cup.second-place {
+    background-image: url("../img/tour-2place_350x412.png");
+    right: 32px;
+}
+
+.win-cup.third-place {
+    background-image: url("../img/tour-3place_350x412.png");
+    right: 35px;
+}
+
+.comp-points-image {
+    position: relative;
+    margin: 20px auto;
+    width: 300px;
+    height: 72px;
+    background-image: url("../img/multiplier_300x72.png");
+}
+
+.multiplier {
+    position: absolute;
+    width: 100px;
+    height: 72px;
+    text-align: center;
+    padding-top: 8px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 1px -2px 1px rgba(0, 0, 0, 0.4),
+    -1px 2px 1px rgba(0, 0, 0, 0.4),
+    -2px 0 1px rgba(0, 0, 0, 0.4);
+    font-size: 50px;
+    font-family: "Russo One", sans-serif;
+    display: block;
+}
+
+.multiplier:first-child {
+    left: 0;
+}
+
+.multiplier:last-child {
+    right: 0;
+}
+
+.new-desc {
+    text-align: center;
+    max-width: 90%;
+    margin: 25px auto;
+}
+
+.status-box {
+    width: 300px;
+    height: 77px;
+    margin: 0 auto 30px;
+    border: 1px solid #4c4856;
+    background: #373344;
+    position: relative;
+}
+
+.status {
+    position: absolute;
+    text-decoration: underline;
+    top: 12px;
+    left: 14px;
+}
+
+.status-box ul.rate {
+    top: 13px;
+    left: 210px;
+}
+
+.scale {
+    position: absolute;
+    left: 14px;
+    right: 14px;
+    bottom: 18px;
+    background: #0a0a0a;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    height: 6px;
+}
+
+.color {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 97px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background: #2ba7ea;
+    z-index: 50;
+}
+
+.light {
+    position: absolute;
+    z-index: 100;
+    width: 23px;
+    height: 26px;
+    top: -10px;
+    right: -12px;
+    background-image: url("../img/light-of-scale_46x52.png");
+}
+
+#menu .main-menu-separate {
+    width: 280px;
+    margin: 0 auto;
+    background: #22242c;
+}
+
+#tablet-portrait-menu .main-menu-list a {
+    padding-left: 20px;
+}
+
+.main-menu-separate.tablet-portrait .btn.close {
+    width: 50px !important;
+    height: 50px !important;
+    z-index: 1000 !important;
+    margin-bottom: 0 !important;
+    top: 2px !important;
+    right: -20px !important;
+}
+
+.main-menu-separate .btn.yellow.menu,
+.main-menu-separate .btn.red.menu {
+    width: 280px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-menu-separate .btn {
+    margin-bottom: 15px;
+}
+
+.main-menu-separate.tablet-portrait {
+    width: 210px;
+}
+
+.profile-wrapper {
+    width: 300px;
+    margin: 0 auto 30px;
+}
+
+.icon-mail,
+.e-mail,
+.icon-phone,
+.number-phone {
+    display: inline-block;
+}
+
+.icon-mail,
+.icon-phone {
+    width: 16px;
+    height: 16px;
+    margin: 0 3px 0 6px;
+    background: url("../img/cashbox/sprite/cashbox-icons.png") no-repeat -3px -39px;
+}
+
+.icon-mail {
+    background: url("../img/cashbox/sprite/cashbox-icons.png") no-repeat -3px -20px;
+}
+
+.e-mail,
+.number-phone,
+.profile-detail,
+.account-detail,
+.edit-profile,
+.balance-franks-block,
+.exchange-money-string,
+.exchange-rate-box,
+.balance-currency-block {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.e-mail {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: left;
+    max-width: 60%; /* 180px / 300px */
+    font-size: 14px;
+}
+
+.e-mail a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.phone-string {
+    position: relative;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.phone-string:before {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 1px;
+    width: 100%;
+    bottom: -15px;
+    background: #33313c;
+}
+
+.number-phone {
+    margin-right: 6px;
+    position: relative;
+    top: -3px;
+}
+
+.number-phone a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.number-phone .unknown {
+    position: relative;
+    top: -1px;
+    font-size: 0.875em;
+    color: #8f8f8f;
+}
+
+a.link.profile {
+    font-family: "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 0.75em;
+    line-height: 1.125em;
+    letter-spacing: 0.025em;
+    color: #00a0db;
+}
+
+.e-mail-string {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+a.confirm {
+    position: absolute;
+    right: 4px;
+    top: 2px;
+}
+
+a.set-phone {
+    position: relative;
+    top: -4px;
+    font-size: 0.875em !important;
+}
+
+.account-details {
+    width: 300px;
+    margin: 30px auto 10px;
+}
+
+.profile-detail {
+    color: #aea9bf;
+    font-size: 1em;
+    line-height: 1.125em;
+    letter-spacing: 0.025em;
+    margin-left: 6px;
+    margin-right: 7px;
+}
+
+.account-details p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 0.8125em;
+    line-height: 1.125em;
+    letter-spacing: 0.025em;
+    margin-bottom: 3px;
+}
+
+.status-profile.not-confirmed {
+    color: #f18a8a;
+}
+
+.account-details-box {
+    width: 300px;
+    background: #f8f8f8;
+    padding-left: 17px;
+    padding-top: 13px;
+    padding-bottom: 16px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 15px auto;
+}
+
+.account-detail {
+    font-size: 1em;
+    color: #a8a8a8;
+    margin-right: 3px;
+}
+
+.account-details-box p {
+    font-size: 0.8125em;
+    color: #222;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.account-name.unknown {
+    color: #989898;
+    font-size: 0.75em;
+    margin-right: 4px;
+    font-weight: 400;
+    position: relative;
+    top: -1px;
+}
+
+a.edit-profile {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.875em;
+    height: 35px;
+    width: 160px;
+    margin: 15px auto 0;
+    text-align: center;
+    padding-top: 9px;
+    background: #363636;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+a.link.profile.change-password {
+    display: block;
+    text-align: center;
+    margin: 15px auto;
+    width: 150px;
+}
+
+.cash-out-box {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #e6e6e6;
+    padding-top: 24px;
+    padding-bottom: 22px;
+}
+
+.balance-franks-block {
+    text-align: center;
+    position: relative;
+    background: #474747;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    width: 230px;
+    margin: 0 auto 20px;
+    padding-top: 17px;
+    padding-bottom: 15px;
+    font-size: 0.75em;
+    border: 1px solid #000;
+}
+
+.balance-franks-block:before,
+.balance-franks-block:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.balance-franks-block:after {
+    border-color: rgba(71, 71, 71, 0);
+    border-top-color: #474747;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+.balance-franks-block:before {
+    border-color: rgba(0, 0, 0, 0);
+    border-top-color: #000;
+    border-width: 11px;
+    margin-left: -11px;
+}
+
+.count-of-franks {
+    font-size: 1.5em;
+    padding-top: 6px;
+}
+
+.exchange-money-string {
+    text-align: center;
+    font-size: 0.75em;
+    color: #000;
+    line-height: 1.5em;
+}
+
+.indicate-arrows {
+    display: inline-block;
+    width: 10px;
+    height: 9px;
+    background: url("../img/cashbox/sprite/cashbox-icons.png") no-repeat -3px -77px;
+}
+
+.exchange-rate-box {
+    font-size: 0.6875em;
+    width: 280px;
+    margin: 3px auto 15px;
+    background: #fff;
+    color: #666;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.cash-out-box .btn.yellow.in-cashbox {
+    margin-bottom: 5px;
+    border: 0;
+    box-shadow: none;
+}
+
+.balance-currency-block {
+    text-align: center;
+    position: relative;
+    background: #474747;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    width: 230px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-size: 0.75em;
+    border: 1px solid #000;
+}
+
+.balance-currency-block:before,
+.balance-currency-block:after {
+    top: -1px;
+    left: 50%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 5;
+}
+
+.balance-currency-block:after {
+    border-color: rgba(230, 230, 230, 0);
+    border-top-color: #e6e6e6;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+.balance-currency-block:before {
+    border-color: rgba(0, 0, 0, 0);
+    border-top-color: #000;
+    border-width: 11px;
+    margin-left: -11px;
+}
+
+.balance-currency-block p:first-child {
+    margin-bottom: 10px;
+}
+
+.currency-count-value,
+.currency.in-balance {
+    font-size: 1.5em;
+}
+
+.currency-count-value {
+    margin-right: 3px;
+}
+
+.description.centered.profile-edit {
+    position: relative;
+    margin: 35px auto 30px !important;
+    padding-left: 10px;
+    width: 300px;
+}
+
+.description.centered.email,
+.description.centered.password {
+    margin: 35px auto 30px !important;
+    width: 300px;
+}
+
+.description.centered.password,
+.description.centered.enter-phone,
+.description.centered.phone-confirmed {
+    position: relative;
+    width: 225px;
+}
+
+.description.centered.enter-phone,
+.description.centered.phone-confirmed {
+    margin: 35px auto 30px !important;
+    width: 285px;
+}
+
+.description.centered.phone-confirmed {
+    width: 260px;
+}
+
+.description.centered.profile-edit span,
+.description.centered.password span,
+.description.centered.enter-phone span,
+.description.centered.phone-confirmed span {
+    position: relative;
+    margin: 0 auto;
+}
+
+.description.centered.profile-edit span:before,
+.description.centered.password span:before,
+.description.centered.enter-phone span:before,
+.description.centered.phone-confirmed span:before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 20px;
+    height: 17px;
+    top: 0;
+    left: -22px;
+    background: url("../img/cashbox/sprite/cashbox-icons.png") no-repeat -3px 0;
+}
+
+#enter-phone {
+    margin: 35px auto 12px;
+    width: 241px;
+}
+
+#confirm-code {
+    margin: 20px auto 12px;
+    width: 259px;
+}
+
+.cashbox-input.password-field {
+    width: 183px;
+}
+
+.input-wrapper.change-password {
+    position: relative;
+    height: 35px;
+    margin: 0 auto 20px;
+}
+
+.input-wrapper.change-password.first {
+    margin: 25px auto 20px;
+}
+
+.input-wrapper.change-password label.sign {
+    top: 7px;
+}
+
+.input-wrapper.change-password input,
+.input-wrapper.user-name input {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.input-wrapper.user-name input {
+    top: -17px;
+}
+
+.input-wrapper.user-name {
+    position: relative;
+    height: 35px;
+    margin: 45px auto 0;
+}
+
+.sign.password {
+    width: 100px;
+}
+
+label.sign.user-name {
+    top: -10px;
+}
+
+.wrong-code {
+    text-align: center;
+    width: 300px;
+    font-family: "Tahoma", sans-serif;
+    color: #837f92;
+    font-size: 0.875em;
+    margin: 6px auto 25px;
+}
+
+.wrong-code a {
+    display: inline-block;
+    text-decoration: none;
+    color: #837f92;
+}
+
+.input-wrapper.wrong-confirm-code #confirm-code {
+    margin: 5px auto 12px;
+}
+
+.description.confirm {
+    text-align: center;
+    margin: 20px auto 3px;
+}
+
+.error-enter {
+    text-align: center;
+    font-family: "Tahoma", sans-serif;
+    color: #fc5252;
+    font-size: 0.75em;
+    margin: -10px auto 25px;
+    width: 250px;
+    position: relative;
+    left: 10px;
+}
+
+a.link.profile.get-new-code {
+    margin: 20px auto;
+    display: block;
+    width: 300px;
+    text-align: center;
+}
+
+.code-was-sent {
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    font-weight: 700;
+    color: #837f92;
+    font-size: 0.75em;
+    margin: 20px auto;
+    width: 200px;
+}
+
+.btn.close {
+    box-shadow: none;
+}
+
+a.link.block.password {
+    bottom: -30px;
+}
+
+/* Media Queries */
+
+@media only screen
+and (orientation: portrait) {
+    li.payment-item:nth-last-child(1),
+    li.payment-item:nth-last-child(2) {
+        margin-bottom: 0;
+    }
+
+    li.payment-item:nth-child(even) {
+        margin-left: 10px;
+    }
+
+}
+
+/* Styles for 480x320 */
+
+@media only screen
+and (orientation: landscape) {
+    .center-wrapper {
+        width: 460px;
+    }
+
+    header.modal-pattern .center-wrapper,
+    .modal-pattern.text header.modal-pattern .center-wrapper {
+        width: 460px;
+    }
+
+    .modal-pattern .center-wrapper {
+        width: 440px;
+    }
+
+    .copyright {
+        font-size: 0.875em;
+    }
+
+    .btn.enter {
+        margin-left: 10px;
+    }
+
+    .items-list.games-list {
+        width: 460px;
+        padding-left: 5px;
+    }
+
+    .items-list.games-list .list-item {
+        margin-right: 5px;
+    }
+
+    .arrow-in-filter {
+        right: 165px;
+    }
+
+    .games-list-filter li {
+        height: 22px;
+    }
+
+    .games-list-filter li:first-child,
+    .games-list-filter li:last-child {
+        height: 30px;
+    }
+
+    .games-list-filter a {
+        line-height: 22px;
+    }
+
+    .games-list-filter a.first, .games-list-filter a.last {
+        line-height: 30px;
+    }
+
+    .payment-figure-list {
+        display: block;
+        width: 450px;
+    }
+
+    li.payment-item {
+        margin-right: 1px;
+    }
+
+    li.payment-item:nth-child(3n) {
+        margin-right: 0;
+    }
+
+    .payment-list-cashbox-item {
+        margin-right: 2px;
+    }
+
+    .history-item {
+        letter-spacing: 1.8px;
+    }
+
+    .btn.open-account {
+        width: 300px;
+    }
+
+    .modal-main-head {
+        max-width: 90%;
+    }
+
+    /* Enter */
+
+    .social-network-list {
+        width: 340px;
+    }
+    .enter-social {
+        margin-bottom: -10px;
+    }
+
+    li.social-item {
+        margin-bottom: 3px;
+    }
+
+    li.social-item:not(:last-child),
+    li.social-item:first-child {
+        margin-right: 5px;
+    }
+
+    .center-wrapper.enter-center {
+        width: 300px;
+    }
+
+    .social-description {
+        font-size: 0.875em;
+        width: 340px;
+        margin: 0 auto;
+    }
+
+    .registration .social-description {
+        width: 400px;
+    }
+
+    .auth-description {
+        font-size: 0.875em;
+    }
+
+    .not-enough-money {
+        margin: 35px auto 40px;
+    }
+
+    .description.add {
+        margin: 20px auto;
+    }
+
+    .description.short-width {
+        max-width: 400px;
+        margin: 10px auto;
+    }
+
+    .bonus-active-img.accept {
+        margin: 20px auto;
+    }
+
+    .social-description.accept.registration {
+        margin: 15px auto 20px;
+    }
+
+    .social-description.accept-small-size {
+        font-size: 0.75em;
+    }
+
+    .social-description.text {
+        width: 440px;
+        margin: 20px auto;
+    }
+
+    .cash-list {
+        margin: 25px auto 15px;
+        max-width: 340px;
+    }
+
+    .cash-list-item:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    .modal-information .center-wrapper.tournament {
+        width: 340px;
+    }
+
+    .win-place {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .win-cup {
+        right: 25px;
+    }
+
+    .win-cup.second-place,
+    .win-cup.third-place {
+        right: 52px;
+    }
+
+    .social-description.points {
+        margin: 15px auto 20px;
+        font-size: 0.875em;
+    }
+
+    .cashbox-menu-item.text-only {
+        padding-top: 7px;
+    }
+
+    .cashbox-description {
+        font-size: 0.875em;
+    }
+
+    .description-in-cashbox {
+        width: 90%;
+    }
+
+}
+
+/* Retina */
+
+@media only screen
+and (-webkit-min-device-pixel-ratio: 2),
+only screen
+and (-o-min-device-pixel-ratio: 2/1),
+only screen
+and (min--moz-device-pixel-ratio: 2),
+only screen
+and (min-resolution: 2dppx),
+only screen
+and (min-resolution: 192dpi) {
+
+    .main-head {
+        background-image: url("../img/jackpot-casino_900x182.png"); /* 2x image */
+    }
+
+    .head-logo {
+        background-image: url("../img/logo-frank_640x136.png"); /* 2x image */
+    }
+
+    .cashbox-menu-item.refill .cashbox-icon {
+        background-image: url("../img/refill_110x110.png"); /* 2x image */
+    }
+
+    .cashbox-menu-item.win .cashbox-icon {
+        background-image: url("../img/win_110x110.png"); /* 2x image */
+    }
+
+    .cashbox-menu-item.history .cashbox-icon {
+        background-image: url("../img/history_110x110.png"); /* 2x image */
+    }
+
+    li.payment-item .logotype {
+        background-image: url('../img/wallet/wallet_sprite_2X.png'); /* 2x image */
+    }
+
+    .btn.close {
+        background-image: url("../img/close-btn_116x116.png");
+    }
+
+    li.payment-item .logotype.alfa-click {
+        background-position: 0 0;
+    }
+
+    li.payment-item .logotype.visa {
+        background-position: 0 71.203657%;
+    }
+
+    li.payment-item .logotype.skrill {
+        background-position: 0 60.79228%;
+    }
+
+    li.payment-item .logotype.yandex-money {
+        background-position: 0 90.554723%;
+    }
+
+    li.payment-item .logotype.liqpay {
+        background-position: 0 16.556628%;
+    }
+
+    li.payment-item .logotype.w1 {
+        background-position: 0 100%;
+        background-size: 180% !important;
+    }
+
+    li.payment-item .logotype.webmoney {
+        background-position: 0 81.615033%;
+    }
+
+    li.payment-item .logotype.qiwi {
+        background-position: 0 50.380904%;
+    }
+
+    li.payment-item .logotype.privat-24 {
+        background-position: 0 43.254921%;
+    }
+
+    li.payment-item .logotype.interkassa {
+        background-position: 0 9.985387%;
+    }
+
+    li.payment-item .logotype.mail-money {
+        background-position: 0 26.968004%;
+    }
+
+    li.payment-item .logotype.moneta {
+        background-position: 0 36.635142%;
+    }
+
+    .payment-list-cashbox-item .payment-logo-cashbox .logotype-cash {
+        background-image: url("../img/cashbox/wallet_in_cash_2X.png"); /* 2x image */
+    }
+
+    .tapestry {
+        background-image: url("../img/tapestry_900x621.png"); /* 2x image */
+    }
+
+    .logo-cashback {
+        background-image: url("../img/logo_cashback_624x318.png"); /* 2x image */
+    }
+
+    .payment-list-cashbox-item.skrill .payment-logo-cashbox .logotype-cash {
+        background-position: 0 87.573964%;
+        background-size: 112.5% !important;
+    }
+
+    .payment-list-cashbox-item.qiwi .payment-logo-cashbox .logotype-cash {
+        background-position: 0 28.652482%;
+        background-size: 100%;
+    }
+
+    .payment-list-cashbox-item.neteller .payment-logo-cashbox .logotype-cash {
+        background-position: 0 17.564103%;
+        background-size: 100%;
+    }
+
+    .payment-list-cashbox-item.webmoney .payment-logo-cashbox .logotype-cash {
+        background-size: 111% !important;
+        background-position: 0 100%;
+        height: 33px;
+        width: 130px;
+        top: 14px;
+        left: 6px;
+    }
+
+    .payment-list-cashbox-item.yandex-money .payment-logo-cashbox .logotype-cash {
+        background-position: 0 63.701578%;
+        background-size: 102.857143% !important;
+    }
+
+    .payment-list-cashbox-item.moneta .payment-logo-cashbox .logotype-cash {
+        background-position: 0 0;
+        background-size: 100%;
+    }
+
+    .payment-list-cashbox-item.alfa-click .payment-logo-cashbox .logotype-cash {
+        background-position: 0 46.02961%; background-size: 100.840336% !important;
+    }
+
+    .payment-logo-item {
+        background-position: 0 71.203657%;
+        background-image: url('../img/wallet/wallet_sprite_2X.png'); /* 2x image */
+    }
+
+    .not-enough-money {
+        background-image: url("../img/not_enough_money_400x256.png"); /* 2x image */
+    }
+
+    .cash-list-item.dollar .cash {
+        background-image: url("../img/dollar_104x152.png"); /* 2x image */
+    }
+
+    .cash-list-item.euro .cash {
+        background-image: url("../img/euro_116x136.png"); /* 2x image */
+    }
+
+    .cash-list-item.rouble .cash {
+        background-image: url("../img/rouble_120x136.png"); /* 2x image */
+    }
+
+    .tournament-win-image {
+        background-image: url("../img/tournament-win_840x336.png"); /* 2x image */
+    }
+
+    .tournament-win-image.prize-place {
+        background-image: url("../img/tour-prize-place-bg_840x334.png"); /* 2x image */
+    }
+
+    .win-cup.first-place {
+        background-image: url("../img/tour-1place_800x831.png"); /* 2x image */
+    }
+
+    .win-cup.second-place {
+        background-image: url("../img/tour-2place_700x824.png"); /* 2x image */
+    }
+
+    .win-cup.third-place {
+        background-image: url("../img/tour-3place_700x824.png"); /* 2x image */
+    }
+
+    .comp-points-image {
+        background-image: url("../img/multiplier_600x144.png"); /* 2x image */
+    }
+
+    .light {
+        background-image: url("../img/light-of-scale_92x104.png"); /* 2x image */
+    }
+
+    .menu-logo {
+        background-image: url("../img/logo-menu_270x42.png"); /* 2x image */
+    }
+
+    .payment-list li.logo {
+        background-image: url("../img/footer_logo/sprite_2X.png");
+    }
+
+    .payment-list li.logo.visa {
+        background-position: 0 15.384615%;
+        background-size: 147.5% !important;
+    }
+
+    .payment-list li.logo.mastercard {
+        background-position: 0 38.461538%;
+        background-size: 178.787879% !important;
+    }
+
+    .payment-list li.logo.maestro {
+        background-position: 0 30.769231%;
+        background-size: 177% !important;
+    }
+
+    .payment-list li.logo.qiwi {
+        background-position: 0 69.230769%;
+        background-size: 295% !important;
+    }
+
+    .payment-list li.logo.webmoney {
+        background-position: 0 53.846154%;
+        background-size: 272.307692% !important;
+    }
+
+    .payment-list li.logo.yandex-money {
+        background-position: 0 84.615385%;
+        background-size: 333.962264% !important;
+    }
+
+    .payment-list li.logo.w1 {
+        background-position: 0 23.076923%;
+        background-size: 171.84466% !important;
+    }
+
+    .payment-list li.logo.mail-money {
+        background-position: 0 46.153846%;
+        background-size: 272.307692% !important;
+    }
+
+    .payment-list li.logo.privat-24 {
+        background-position: 0 76.923077%;
+        background-size: 310.526316% !important;
+    }
+
+    .payment-list li.logo.alfa-click {
+        background-position: 0 92.307692%;
+        background-size: 431.707317% !important;
+    }
+
+    .payment-list li.logo.interkassa {
+        background-position: 0 100%;
+        background-size: 442.5% !important;
+    }
+
+    .payment-list li.logo.skrill {
+        background-position: 0 0;
+        background-size: 100% !important;
+    }
+
+    .payment-list li.logo.liqpay {
+        background-position: 0 61.7%;
+        background-size: 295% !important;
+    }
+
+    .payment-list li.logo.moneta {
+        background-position: 0 7.692308%;
+        background-size: 121.232877% !important;
+    }
+
+    .country-flag {
+        background-image: url("../img/cashbox/russia_flag_32x32.png"); /* 2x image */
+    }
+
+    a.cashbox {
+        background-image: url("../img/cashbox_168x168.png"); /* 2x image */
+    }
+
+    .arrow-nav {
+        background-image: url("../img/more_60x60.png"); /* 2x image */
+    }
+
+    .arrow-nav.active {
+        background-image: url("../img/more-active_60x60.png"); /* 2x image */
+    }
+
+    .menu-button,
+    .menu-tablet-button,
+    .foot-logo,
+    .logo-social,
+    .section-logo,
+    .condition.success:before,
+    .condition.fail:before,
+    .checked-list li:before,
+    ul.rate li.half-star,
+    ul.rate li.full-star {
+        max-width: 100%;
+        background-size: 100%;
+        background-image: url('../img/sprite/2X/sprite_2X.png');
+    }
+
+    .menu-button,
+    .menu-tablet-button {
+        height: 52px;
+        background-position: 0 85.905649%;
+        background-size: 272.727273% !important;
+    }
+
+    .menu-tablet-button {
+        display: none;
+    }
+
+    .logo-social.vk {
+        background-position: 0 55.012225%;
+        background-size: 120% !important;
+    }
+
+    .logo-social.fb {
+        background-position: 0 15.892421%;
+        background-size: 120% !important;
+    }
+
+    .logo-social.tw {
+        background-position: 0 45.232274%;
+        background-size: 120% !important;
+    }
+
+    .logo-social.gmail {
+        background-position: 0 25.672372%;
+        background-size: 120% !important;
+    }
+
+    .logo-social.ok {
+        background-position: 0 35.452323%;
+        background-size: 120% !important;
+    }
+
+    .logo-social.mail {
+        background-position: 0 6.112469%;
+        background-size: 120% !important;
+    }
+
+    .logo-social.yandex {
+        background-position: 0 64.792176%;
+        background-size: 120% !important;
+    }
+
+
+    .section-logo.game {
+        background-position: 0 76.271186%;
+        background-size: 240% !important;
+    }
+
+    .section-logo.bonus {
+        background-position: 0 71.303331%;
+        background-size: 240% !important;
+    }
+
+    .section-logo.tournament {
+        background-position: 0 81.239041%;
+        background-size: 240% !important;
+    }
+
+    .condition.success:before {
+        background-position: 0 89.516129%;
+        background-size: 360% !important;
+    }
+
+    .condition.fail:before {
+        background-position: 0 92.545872%;
+        background-size: 428.571429% !important;
+    }
+
+    .checked-list li:before {
+        background-position: 0 100%;
+        background-size: 600% !important;
+    }
+
+    ul.rate li.full-star {
+        background-position: 0 95.418099%;
+        background-size: 450% !important;
+    }
+
+    ul.rate li.half-star {
+        background-position: 0 98.281787%;
+        background-size: 450% !important;
+    }
+
+}

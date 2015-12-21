@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic-ext,cyrillic,latin-ext'
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext,cyrillic,latin-ext'
+          rel='stylesheet' type='text/css'>
+    <title>Пополнение - Liqpay</title>
+    <meta charset="UTF-8" name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1.0, user-scalable=no" />
+    <link href="../css/normalize.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../css/main.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../css/568x320.css" media="only screen
+and (min-width: 320px)
+and (max-width: 568px)" rel="stylesheet" type="text/css">
+    <link href="../css/667x375.css" media="only screen
+and (min-width: 375px)
+and (max-width: 667px)" rel="stylesheet" type="text/css">
+    <link href="../css/736x414.css" media="only screen
+and (min-width: 414px)
+and (max-width: 736px)" rel="stylesheet" type="text/css">
+    <link href="../css/1024x768.css" media="only screen
+and (min-width: 768px)" rel="stylesheet" type="text/css">
+    <link href="../fancyselect/fancyselect.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../css/jquery.m_custom_scrollbar.css" media="screen" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../js/modal.js"></script>
+    <script src="../fancyselect/fancyselect.js"></script>
+    <script src="../js/custom-form-elements.min.js"></script>
+    <script src="../js/jquery.m-custom-scrollbar.concat.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/initialise.js"></script>
+    <script src="../js/regular-initialise.js"></script>
+</head>
+<body class="modal-pattern">
+<table class="tablets-smartphones">
+    <tr>
+        <td class="smartphone-version modal-pattern">
+    <header class="modal-pattern">
+        <div class="center-wrapper">
+            <h1 class="modal-main-head cashbox">Пополнение счета</h1>
+            <a href="#" class="btn close cashbox"></a>
+        </div>
+    </header>
+
+            <div class="shadow-gradient">
+                <div class="center-wrapper"></div>
+            </div>
+    <form class="amount-of-money" method="post">
+        <section class="modal-information">
+            <div class="center-wrapper enter-center cashbox">
+                <h4 class="modal-head cashbox">Liqpay</h4>
+                <div class="input-wrapper">
+                <label for="type-of-bill" class="type">Тип счета:</label>
+                <select class="type-of-bill" id="type-of-bill">
+                    <option value="usd">LiqPay (USD)</option>
+                    <option value="eur">LiqPay (EUR)</option>
+                    <option value="rur">LiqPay (RUR)</option>
+                </select>
+                </div>
+                <div class="centered">
+                    <h2 class="modal-section-name cashbox">Сумма</h2>
+                </div>
+                <div class="sum">
+                    <div class="sum-item">
+                        <input type="radio" id="btn-1" value="1" class="styled" name="sum">
+                        <label for="btn-1" class="amount">$ 20</label>
+                    </div>
+                    <div class="sum-item">
+                        <input type="radio" id="btn-2" value="2" class="styled" name="sum">
+                        <label for="btn-2" class="amount">$ 50</label>
+                    </div>
+                    <div class="sum-item">
+                        <input type="radio" id="btn-3" value="3" class="styled" name="sum">
+                        <label for="btn-3" class="amount">$ 100</label>
+                    </div>
+                    <div class="sum-item">
+                        <input type="radio" id="btn-4" value="4" class="styled" name="sum">
+                        <label for="btn-4" class="amount">$ 500</label>
+                    </div>
+                    <div class="sum-item">
+                        <input type="radio" id="btn-5" value="5" class="styled" name="sum">
+                        <label for="btn-5" class="amount">$ 1000</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="modal-information another-amount">
+            <div class="center-wrapper enter-center input cashbox">
+                <div class="centered">
+                    <h2 class="modal-section-name cashbox another">Другая сумма</h2>
+                </div>
+                <div class="input-wrapper another">
+                    <input type="radio" id="btn-6" value="6" class="styled" name="sum">
+                    <input type="number" class="cashbox-input" name="enter-amount" id="number">
+                    <label for="number" class="valuta">USD</label>
+                </div>
+                <label for="btn-6" class="sum-of-money">Настоящая сумма платежа: RUB 132,086.4</label>
+                <input class="btn popup" id="submit" type="submit" name="submit" value="Оплатить">
+            </div>
+        </section>
+    </form>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

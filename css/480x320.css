@@ -1,0 +1,17 @@
+/* iPhone 3GS-4 */
+/* Retina 2X */
+/*min-device-width: 320px*/
+/*max-device-width: 480px*/
+
+@media only screen
+and (orientation: landscape) {
+    .cashbox-menu {
+        width: 460px;
+    }
+
+    .cashbox-menu-item {
+        margin-right: 22px;
+        width: 135px;
+    }
+
+}

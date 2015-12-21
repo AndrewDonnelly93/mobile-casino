@@ -1,0 +1,850 @@
+/* iPhone 6 */
+/* Retina 2X */
+/*min-device-width: 375px*/
+/*max-device-width: 667px*/
+
+@media only screen
+and (orientation: landscape)
+and (min-width: 640px) {
+
+    .authorized .center-wrapper {
+        width: 500px;
+    }
+
+    .btn.enter {
+        margin-left: 15px;
+    }
+
+    .center-wrapper,
+    .modal-pattern.text header .center-wrapper{
+        width: 620px;
+    }
+    .section-logo {
+        left: 2%;
+    }
+
+    .banner-img {
+        width: 450px;
+        height: 261px;
+    }
+
+    .banner-img img {
+        width: 450px;
+        height: 261px;
+    }
+
+    .btn.play {
+        width: 450px;
+    }
+
+    .foot-logo {
+        height: 45px;
+        width: 90px;
+        margin: 35px auto 30px;
+    }
+
+    .payment-list {
+        width: 90%;
+    }
+
+    .layout-wrapper {
+        width: 620px;
+    }
+
+    .jackpot {
+        height: 202px;
+    }
+
+    .counter-wrapper {
+        width: 276px;
+        margin: 10px auto 0;
+    }
+
+    .main-head {
+        width: 450px;
+        height: 91px;
+        margin: 23px auto 15px;
+    }
+
+    .price-head {
+        width: 350px;
+        height: 64px;
+    }
+
+    .menu-button {
+        height: 66px;
+        width: 63px;
+        top: 18px;
+    }
+
+    .head-logo {
+        height: 70px;
+    }
+
+    a.cashbox {
+        height: 84px;
+        width: 84px;
+    }
+
+    header .center-wrapper {
+        height: 85px;
+    }
+
+    .bonus-list.big-size {
+        margin-top: 20px;
+    }
+
+    .bonus.description {
+        font-size: 1em;
+    }
+
+    .bonus-list.big-size .bonus-item,
+    .big-size.bonus-open .bonus-item {
+        width: 450px;
+        height: 235px;
+    }
+
+    .games-menu {
+        margin: 20px 50px 20px;
+    }
+
+    .items-list.games-list {
+        background: #24252e;
+        padding-bottom: 20px;
+        width: 620px;
+        margin: 10px auto 0;
+        padding-left: 7px;
+    }
+
+    .arrow-in-filter {
+        right: 245px;
+    }
+
+    .description.wallet {
+        font-size: 1em;
+    }
+
+    .payment-figure-list {
+        width: 600px;
+    }
+
+    li.payment-item {
+        margin-right: 1px;
+    }
+
+    li.payment-item:nth-child(4n) {
+        margin-right: 0;
+    }
+
+    .center-wrapper.cashbox {
+        width: 460px;
+    }
+
+    .cashbox-menu {
+        width: 460px;
+    }
+
+    .cashbox-menu-item {
+        margin-right: 22px;
+        width: 135px;
+    }
+
+    .cashbox-menu-item:last-child {
+        margin-right: 0;
+    }
+
+    .modal-pattern header .center-wrapper {
+        height: 65px;
+        width: 620px;
+    }
+
+    .modal-pattern .center-wrapper {
+        width: 460px;
+    }
+
+    .payment-logo {
+        margin: 30px auto;
+    }
+
+    .modal-head,
+    .modal-middle-head {
+        max-width: 90%;
+        font-size: 1.25em;
+    }
+
+    .social-description {
+        margin: 30px auto;
+        width: 400px;
+    }
+
+    .social-network-list {
+        margin: 30px auto;
+    }
+
+    .center-wrapper.enter-center {
+        width: 340px;
+    }
+
+    .modal-section-name:before,
+    .modal-section-name:after {
+        width: 137px;
+    }
+
+    .modal-section-name:before {
+        left: -137px;
+    }
+
+    .modal-section-name:after {
+        right: -137px;
+    }
+
+    .centered {
+        margin: 10px auto 5px;
+    }
+
+    .registration-or-enter.registration .modal-section-name:before,
+    .registration-or-enter.registration .modal-section-name:after {
+        width: 102px;
+    }
+
+    .registration-or-enter.registration .modal-section-name:before {
+        left: -102px;
+    }
+
+    .registration-or-enter.registration .modal-section-name:after {
+        right: -102px;
+    }
+
+    nav.menu-list-pattern {
+        margin: 20px auto;
+    }
+
+    #menu nav.menu-list-pattern {
+        margin: 0 auto;
+    }
+
+    .bonus-active-img {
+        width: 127px;
+        height: 127px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .bonus .modal-head {
+        font-size: 1.375em;
+    }
+
+    .bonus .description {
+        margin-top: 20px;
+        font-size: 1.125em;
+    }
+
+    .logo-cashback {
+        width: 260px;
+        height: 133px;
+        margin-bottom: 25px;
+        margin-top: 20px;
+    }
+
+    .tapestry {
+        width: 380px;
+        height: 262px;
+        font-size: 1em;
+        padding: 100px 60px;
+    }
+
+    .social-description.accept-small-size {
+        font-size: 0.875em;
+        margin-bottom: 35px;
+    }
+
+    .social-description.accept {
+        font-size: 1em;
+        margin: 35px auto 45px;
+    }
+
+    .bonus-active-img.accept {
+        margin: 20px auto 0;
+    }
+
+    .social-description.text.last {
+        margin-bottom: 25px;
+    }
+
+    .modal-pattern.text .center-wrapper {
+        width: 500px;
+    }
+
+    .social-description.text {
+        width: 500px;
+    }
+
+    .modal-information.restore {
+        margin-top: 20px;
+    }
+
+    .modal-section-name.restore {
+        margin-bottom: 30px;
+    }
+
+    input#e-mail {
+        margin-bottom: 20px;
+    }
+
+    .modal-section-name.restore:before,
+    .modal-section-name.restore:after {
+        width: 59px;
+    }
+
+    .modal-section-name.restore:before {
+        left: -59px;
+    }
+
+    .modal-section-name.restore:after {
+        right: -59px;
+    }
+
+    .cash-list {
+        margin: 35px auto 25px;
+    }
+
+    .tournament-win-image {
+        width: 356px;
+        height: 145px;
+        margin: 20px auto;
+        background-size: 350px 139px;
+    }
+
+    .win-place {
+        margin: 20px auto;
+        width: 345px;
+    }
+
+    .social-description.accept.tournament {
+        margin: 0 auto 20px;
+        font-size: 1em;
+    }
+
+    .modal-information .center-wrapper.tournament {
+        width: 450px;
+    }
+
+    .win-cup.first-place {
+        top: -40px;
+        width: 350px;
+        height: 363px;
+        right: 52px;
+    }
+
+    .win-cup.second-place,
+    .win-cup.third-place {
+        right: 82px;
+        top: -25px;
+        width: 300px;
+        height: 353px;
+    }
+
+    .center-wrapper.enter-center.cashbox {
+        width: 500px;
+    }
+
+    .center-wrapper.enter-center.cashbox .input-wrapper.another {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sum-of-money {
+        margin: 20px auto 25px;
+        font-size: 0.875em;
+    }
+
+    .type {
+        font-size: 0.875em;
+    }
+
+    .modal-section-name.cashbox.another:before {
+        left: -110px;
+    }
+
+    .modal-section-name.cashbox.another:before,
+    .modal-section-name.cashbox.another:after {
+        width: 110px;
+    }
+
+    .modal-section-name.cashbox.another:after {
+        right: -110px;
+    }
+
+    .type {
+        font-size: 0.875em;
+    }
+
+    input#account {
+        margin: 30px 0 20px;
+    }
+
+    .cashbox-menu.show {
+        margin: 30px auto 10px;
+        width: 340px;
+    }
+
+    .cashbox-menu-item.text-only:first-child {
+        margin-right: 15px;
+    }
+
+    .cashbox-description {
+        font-size: 0.9375em;
+    }
+
+    .cashbox-menu-item.text-only {
+        height: 45px;
+        width: 160px;
+        padding-top: 12px;
+    }
+
+    .payment-list li.logo {
+        margin: 0 2px 12px 0;
+    }
+
+    .description-in-cashbox {
+        font-size: 0.9375em;
+    }
+
+    .bonus-desc {
+        font-size: 0.875em;
+    }
+
+    .wrapper-bonus-desc {
+        width: 250px;
+    }
+
+    .bonus-time-desc {
+        font-size: 0.75em;
+    }
+
+    .bonus-active-img.in-cashbox {
+        left: -135px;
+        top: 3px;
+        width: 127px;
+        height: 127px;
+    }
+
+    .bonus-in-cashbox {
+        width: 460px;
+    }
+
+    .bonus-name-cashbox {
+        width: 430px;
+    }
+
+    .games-block {
+        width: 420px;
+    }
+
+    .lines {
+        width: 400px;
+    }
+
+    .games-block:before {
+        left: 175px;
+    }
+
+    .choose-game {
+        width: 350px;
+    }
+
+    .games-in-bonus {
+        width: 356px;
+    }
+
+    .games-in-bonus-item {
+        margin-right: 16px;
+    }
+
+    .games-in-bonus-item:nth-child(odd) {
+        margin-right: 16px;
+    }
+
+    .games-in-bonus-item:nth-child(3n) {
+        margin-right: -4px;
+    }
+
+    .wrapper-bonus-desc {
+        margin-left: 176px;
+    }
+
+    a.reg-button {
+        top: 18px;
+        width: 63px;
+        height: 63px;
+        background-image: url("../img/arrow_33x33.gif");
+        background-size: 33px 33px;
+    }
+
+}
+
+
+@media only screen
+and (orientation: landscape)
+and (min-width: 667px) {
+
+    .items-list.games-list {
+        width: 600px;
+        padding-left: 14px;
+    }
+
+    .section-header.arrow:before {
+        left: 8%;
+        border-width: 15px 15px 0 15px;
+    }
+
+    .items-list.games-list .list-item {
+        width: 190px;
+        height: 145px;
+    }
+
+    .game-picture {
+        width: 190px;
+        height: 110px;
+    }
+
+    .list-item .frame.in-game {
+        height: 35px;
+        padding-top: 7px;
+    }
+
+    .list-item .frame.in-game .item-name {
+        font-size: 0.875em;
+    }
+
+    .games-list-filter li {
+        height: 30px;
+    }
+
+    .games-list-filter li:first-child,
+    .games-list-filter li:last-child {
+        height: 35px;
+    }
+
+    .games-list-filter a {
+        line-height: 30px;
+    }
+
+    .games-list-filter a.first, .games-list-filter a.last {
+        line-height: 35px;
+    }
+
+    .description.wallet {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .payment-figure-list {
+        width: 630px;
+    }
+
+    li.payment-item {
+        margin-right: 10px;
+    }
+
+    li.payment-item:nth-child(3n) {
+        margin-right: 10px;
+    }
+
+    li.payment-item:nth-child(4n) {
+        margin-right: 0;
+    }
+
+    .btn.close.enter {
+        right: -12px;
+    }
+
+    .not-enough-money {
+        margin: 50px auto;
+        width: 150px;
+        height: 96px;
+    }
+
+    .cash-list-item {
+        height: 100px;
+        width: 130px;
+    }
+
+    .radio-wrapper {
+        top: 36px;
+        left: 23px;
+    }
+
+    .cash-list {
+        margin: 35px auto;
+        max-width: 430px;
+    }
+
+    .cash-list-item.dollar .cash {
+        top: 12px;
+        right: 20px;
+        width: 52px;
+        height: 76px;
+    }
+
+    .cash-list-item.euro .cash {
+        right: 13px;
+        width: 58px;
+        height: 68px;
+        top: 15px;
+    }
+
+    .cash-list-item.rouble .cash {
+        right: 11px;
+        top: 15px;
+        width: 60px;
+        height: 68px;
+    }
+
+    .payment-list-cashbox-item {
+        margin-bottom: 3px;
+    }
+
+    header.modal-pattern .center-wrapper,
+    .modal-pattern.text header.modal-pattern .center-wrapper {
+        width: 640px;
+    }
+
+    .games-block:before {
+        left: 170px;
+    }
+
+    .menu-button {
+        left: -10px;
+    }
+
+    a.cashbox {
+        right: -15px;
+    }
+
+}
+
+/* Styles for 375x667 */
+
+@media only screen
+and (orientation: portrait)
+and (min-width: 375px)
+and (min-height: 667px) {
+    .center-wrapper.enter-center {
+        width: 340px;
+    }
+
+    .modal-section-name:before,
+    .modal-section-name:after {
+        width: 137px;
+    }
+
+    .modal-section-name:before {
+        left: -137px;
+    }
+
+    .modal-section-name:after {
+        right: -137px;
+    }
+
+    .centered {
+        margin: 10px auto 5px;
+    }
+
+    .btn.close.enter {
+        right: -8px;
+    }
+
+    .registration-or-enter.registration .modal-section-name:before,
+    .registration-or-enter.registration .modal-section-name:after {
+        width: 102px;
+    }
+
+    .registration-or-enter.registration .modal-section-name:before {
+        left: -102px;
+    }
+
+    .registration-or-enter.registration .modal-section-name:after {
+        right: -102px;
+    }
+
+    .social-description.accept-small-size {
+        font-size: 0.875em;
+    }
+
+    .social-description.accept-small-size {
+        font-size: 0.875em;
+        margin-bottom: 35px;
+    }
+
+    .not-enough-money {
+        margin: 50px auto;
+        width: 150px;
+        height: 96px;
+    }
+
+    .modal-information.restore {
+        margin-top: 20px;
+    }
+
+    .modal-section-name.restore {
+        margin-bottom: 30px;
+    }
+
+    input#e-mail {
+        margin-bottom: 20px;
+    }
+
+    .modal-section-name.restore:before,
+    .modal-section-name.restore:after {
+        width: 59px;
+    }
+
+    .modal-section-name.restore:before {
+        left: -59px;
+    }
+
+    .modal-section-name.restore:after {
+        right: -59px;
+    }
+
+    .center-wrapper.enter-center.cashbox .input-wrapper.another {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sum-of-money {
+        margin: 20px auto 25px;
+        font-size: 0.875em;
+    }
+
+    .type {
+        font-size: 0.875em;
+    }
+
+    .modal-section-name.cashbox.another:before {
+        left: -110px;
+    }
+
+    .modal-section-name.cashbox.another:before,
+    .modal-section-name.cashbox.another:after {
+        width: 110px;
+    }
+
+    .modal-section-name.cashbox.another:after {
+        right: -110px;
+    }
+
+    .sum .sum-item {
+        margin: 0 0 15px 25px;
+    }
+
+    .cashbox-menu.show {
+        margin: 30px auto 10px;
+    }
+
+    .cashbox-menu-item.text-only:first-child {
+        margin-right: 15px;
+    }
+
+    .cashbox-description {
+        font-size: 0.9375em;
+    }
+
+    .cashbox-menu-item.text-only {
+        height: 45px;
+        width: 160px;
+        padding-top: 12px;
+    }
+
+    .payment-list li.logo {
+        margin: 0 3px 10px 0;
+    }
+
+    .menu-button {
+        left: -5px;
+    }
+
+    a.cashbox {
+        right: -13px;
+    }
+
+    header.modal-pattern .center-wrapper,
+    .modal-pattern.text header.modal-pattern .center-wrapper {
+        width: 355px;
+    }
+
+    .description-in-cashbox {
+        font-size: 0.9375em;
+    }
+
+    .bonus-desc {
+        font-size: 0.875em;
+    }
+
+    .wrapper-bonus-desc {
+        width: 210px;
+        margin-left: 100px;
+    }
+
+    .bonus-time-desc {
+        font-size: 0.75em;
+    }
+
+    .bonus-active-img.in-cashbox {
+        left: -90px;
+        top: 2px;
+        width: 85px;
+        height: 85px;
+    }
+
+    .games-block {
+        width: 310px;
+    }
+
+    .games-in-bonus {
+        width: 245px;
+    }
+
+    .games-in-bonus-item:nth-child(odd) {
+        margin-right: 30px;
+    }
+
+    a.reg-button {
+        right: -3px;
+    }
+
+}
+
+@media only screen
+and (orientation: portrait)
+and (min-width: 375px)
+and (min-height: 667px)
+and (-webkit-min-device-pixel-ratio: 2),
+only screen
+and (orientation: portrait)
+and (min-width: 375px)
+and (min-height: 667px)
+and (-o-min-device-pixel-ratio: 2/1),
+only screen
+and (orientation: portrait)
+and (min-width: 375px)
+and (min-height: 667px)
+and (min--moz-device-pixel-ratio: 2),
+only screen
+and (orientation: portrait)
+and (min-width: 375px)
+and (min-height: 667px)
+and (min-resolution: 2dppx),
+only screen
+and (orientation: portrait)
+and (min-width: 375px)
+and (min-height: 667px)
+and (min-resolution: 192dpi) {
+    .menu-button {
+        height: 52px;
+        width: 48px;
+    } 
+}

@@ -1,0 +1,1351 @@
+/* iPhone 6+ */
+/* Retina 3X */
+/*min-device-width: 414px*/
+/*max-device-width: 736px*/
+
+@media only screen
+and (orientation: landscape)
+and (min-width: 668px) {
+
+    .items-list.games-list .list-item {
+        width: 190px;
+        height: 145px;
+    }
+
+    .authorized .center-wrapper {
+        width: 500px;
+    }
+
+    .menu-button {
+        height: 65px;
+        width: 61px;
+        top: 18px;
+    }
+
+    .head-logo {
+        height: 70px;
+    }
+
+    a.cashbox {
+        height: 84px;
+        width: 84px;
+        right: -10px;
+    }
+
+    header .center-wrapper {
+        height: 85px;
+    }
+
+    .center-wrapper {
+        width: 620px;
+    }
+
+    .section-logo {
+        left: 2%;
+    }
+
+    .banner-img {
+        width: 450px;
+        height: 261px;
+    }
+
+    .banner-img img {
+        width: 450px;
+        height: 261px;
+    }
+
+    .btn.play {
+        width: 450px;
+    }
+
+    .foot-logo {
+        height: 45px;
+        width: 90px;
+    }
+
+    .payment-list {
+        width: 90%;
+    }
+
+    .payment-list li {
+        width: 30px;
+        height: 30px;
+    }
+
+    .payment-list li.logo.visa,
+    .payment-list li.logo.skrill,
+    .payment-list li.logo.moneta {
+        width: 50px;
+    }
+
+    .payment-list li.logo.mastercard,
+    .payment-list li.logo.maestro,
+    .payment-list li.logo.w1 {
+        width: 35px;
+    }
+
+    .layout-wrapper {
+        width: 620px;
+    }
+
+    .jackpot {
+        height: 202px;
+    }
+
+    .counter-wrapper {
+        width: 276px;
+        margin: 10px auto 0;
+    }
+
+    .main-head {
+        width: 450px;
+        height: 91px;
+        margin: 23px auto 15px;
+    }
+
+    .price-head {
+        width: 350px;
+        height: 64px;
+    }
+
+    .bonus-list.big-size {
+        margin-top: 20px;
+    }
+
+    .bonus.description {
+        font-size: 1em;
+    }
+
+    .bonus-list.big-size .bonus-item,
+    .big-size.bonus-open .bonus-item {
+        width: 450px;
+        height: 235px;
+    }
+
+    .description.wallet {
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+
+    .payment-figure-list {
+        width: 630px;
+    }
+
+    li.payment-item {
+        margin-right: 10px;
+    }
+
+    li.payment-item:nth-child(3n) {
+        margin-right: 10px;
+    }
+
+    li.payment-item:nth-child(4n) {
+        margin-right: 0;
+    }
+
+    a.reg-button {
+        top: 18px;
+        width: 63px;
+        height: 63px;
+        background-image: url("../img/arrow_33x33.gif");
+        background-size: 36px 36px;
+    }
+
+}
+
+@media only screen
+and (orientation: landscape)
+and (min-width: 736px) {
+
+    .btn.enter {
+        margin-left: 16px;
+    }
+
+    .center-wrapper {
+        width: 710px;
+    }
+
+    .section-name {
+        margin-left: 60px;
+    }
+
+    .section-logo {
+        left: 2.5%;
+    }
+
+    .foot-logo {
+        margin: 30px auto;
+    }
+
+    .items-list.games-list {
+        width: 600px;
+        padding-left: 14px;
+    }
+
+    .section-header.arrow:before {
+        left: 5%;
+        border-width: 20px 20px 0 20px;
+    }
+
+    .items-list.games-list .list-item {
+        width: 190px;
+        height: 145px;
+    }
+
+    .items-list.games-list .list-item img {
+        width: 190px;
+        height: 110px;
+    }
+
+    .list-item .frame.in-game {
+        height: 35px;
+        padding-top: 7px;
+    }
+
+    .list-item .frame.in-game .item-name {
+        font-size: 0.875em;
+    }
+
+    .games-menu {
+        margin: 20px 80px 20px;
+    }
+
+    .arrow-in-filter {
+        right: 290px;
+    }
+
+    .games-list-filter li {
+        height: 30px;
+    }
+
+    .games-list-filter li:first-child,
+    .games-list-filter li:last-child {
+        height: 40px;
+    }
+
+    .games-list-filter a {
+        line-height: 30px;
+    }
+
+    .games-list-filter a.first, .games-list-filter a.last {
+        line-height: 40px;
+    }
+
+    /* Cashbox */
+    .tablets-smartphones.cashbox .tablet-version {
+        width: 194px;
+    }
+
+    #refill, #win {
+        margin-top: 15px;
+    }
+
+    .center-wrapper.cashbox {
+        width: 460px;
+    }
+
+    .cashbox-menu {
+        width: 460px;
+    }
+
+    .cashbox-menu-item {
+        margin-right: 22px;
+        width: 135px;
+        height: 75px;
+    }
+
+    .cashbox-icon {
+        margin: 7px auto 3px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .cashbox-menu-item:last-child {
+        margin-right: 0;
+    }
+
+    .payment-list-cashbox-item {
+        margin-bottom: 5px;
+    }
+
+    .cashbox-description {
+        font-size: 0.875em;
+    }
+
+    /* Modal pattern */
+    .modal-pattern header .center-wrapper,
+    .modal-pattern.text header.modal-pattern .center-wrapper {
+        height: 65px;
+        width: 710px;
+    }
+
+    .modal-pattern .center-wrapper {
+        width: 460px;
+    }
+
+    .modal-head {
+        max-width: 90%;
+        font-size: 1.25em;
+    }
+
+    li.social-item {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    li.social-item:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .logo-social {
+        top: 15px;
+        left: 15px;
+        height: 70px;
+        width: 70px;
+    }
+
+    li.social-item:first-child {
+        margin-right: 10px;
+    }
+
+    .social-description {
+        font-size: 1em;
+        margin: 35px auto;
+        width: 450px;
+    }
+
+    .social-frame {
+        width: 400px;
+        margin: 30px auto;
+    }
+
+    .center-wrapper.enter-center.input {
+        width: 340px;
+    }
+
+    .modal-section-name:before,
+    .modal-section-name:after {
+        width: 137px;
+    }
+
+    .modal-section-name:before {
+        left: -137px;
+    }
+
+    .modal-section-name:after {
+        right: -137px;
+    }
+
+    .centered {
+        margin: 10px auto 5px;
+    }
+
+    .registration-or-enter {
+        margin-bottom: 60px;
+    }
+
+    a.link.block {
+        bottom: -30px;
+        font-size: 1.125em;
+    }
+
+    .social-network-list {
+        width: 500px;
+    }
+
+    .enter-social .modal-head {
+        font-size: 1.375em;
+    }
+
+    .registration-or-enter.registration .modal-section-name:before,
+    .registration-or-enter.registration .modal-section-name:after {
+        width: 102px;
+    }
+
+    .registration-or-enter.registration .modal-section-name:before {
+        left: -102px;
+    }
+
+    .registration-or-enter.registration .modal-section-name:after {
+        right: -102px;
+    }
+
+    .registration-or-enter.registration {
+        margin: 20px auto 50px;
+    }
+
+    nav.menu-list-pattern {
+        margin: 30px auto;
+    }
+
+    #menu nav.menu-list-pattern {
+        margin: 0 auto;
+    }
+
+    .auth-description {
+        font-size: 1em;
+        margin-bottom: 18px;
+    }
+
+    .registration-or-enter.auth .centered {
+        margin: 10px auto -10px;
+    }
+
+    .bonus-active-img {
+        width: 127px;
+        height: 127px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .bonus .modal-head {
+        font-size: 1.375em;
+    }
+
+    .bonus .description {
+        margin-top: 20px;
+        font-size: 1.125em;
+    }
+
+    .logo-cashback {
+        width: 260px;
+        height: 133px;
+        margin-bottom: 25px;
+        margin-top: 20px;
+    }
+
+    .tapestry {
+        width: 380px;
+        height: 262px;
+        font-size: 1em;
+        padding: 100px 60px;
+    }
+
+    .social-description.accept-small-size {
+        font-size: 0.875em;
+        margin-bottom: 35px;
+    }
+
+    .social-description.accept {
+        font-size: 1em;
+        margin: 35px auto 45px;
+    }
+
+    .not-enough-money {
+        margin: 50px auto;
+        width: 150px;
+        height: 96px;
+    }
+
+    .social-description.accept.registration {
+        margin: 30px auto 35px;
+    }
+
+    .description.short-width {
+        margin: 20px auto 30px;
+    }
+
+    .modal-pattern.text .center-wrapper {
+        width: 620px;
+    }
+
+    .social-description.text {
+        width: 550px;
+    }
+
+    .social-description.text {
+        font-size: 1em;
+        margin: 25px auto;
+    }
+
+    .social-description.text.last {
+        margin-bottom: 30px;
+    }
+
+    .modal-section-name.restore:before,
+    .modal-section-name.restore:after {
+        width: 59px;
+    }
+
+    .modal-section-name.restore:before {
+        left: -59px;
+    }
+
+    .modal-section-name.restore:after {
+        right: -59px;
+    }
+
+    .cash-list-item {
+        height: 100px;
+        width: 130px;
+    }
+
+    .radio-wrapper {
+        top: 36px;
+        left: 23px;
+    }
+
+    .cash-list {
+        margin: 35px auto;
+        max-width: 430px;
+    }
+
+    .cash-list-item.dollar .cash {
+        top: 12px;
+        right: 20px;
+        width: 52px;
+        height: 76px;
+    }
+
+    .cash-list-item.euro .cash {
+        right: 13px;
+        width: 58px;
+        height: 68px;
+        top: 15px;
+    }
+
+    .cash-list-item.rouble .cash {
+        right: 11px;
+        top: 15px;
+        width: 60px;
+        height: 68px;
+    }
+
+    .tournament-win-image {
+        width: 356px;
+        height: 145px;
+        margin: 20px auto;
+        background-size: 350px 139px;
+    }
+
+    .win-place {
+        margin: 20px auto;
+        width: 345px;
+    }
+
+    .social-description.accept.tournament {
+        margin: 0 auto 20px;
+        font-size: 1em;
+    }
+
+    .modal-information .center-wrapper.tournament {
+        width: 450px;
+    }
+
+    .win-cup.first-place {
+        top: -40px;
+        width: 350px;
+        height: 363px;
+        right: 52px;
+    }
+
+    .win-cup.second-place,
+    .win-cup.third-place {
+        right: 82px;
+        top: -25px;
+        width: 300px;
+        height: 353px;
+    }
+
+    .center-wrapper.enter-center.cashbox .input-wrapper.another {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sum-of-money {
+        margin: 20px auto 25px;
+        font-size: 0.875em;
+    }
+
+    .modal-section-name.cashbox.another:before {
+        left: -110px;
+    }
+
+    .modal-section-name.cashbox.another:before,
+    .modal-section-name.cashbox.another:after {
+        width: 110px;
+    }
+
+    .modal-section-name.cashbox.another:after {
+        right: -110px;
+    }
+
+    .type {
+        font-size: 0.875em;
+    }
+
+    input#account {
+        margin: 30px auto 20px;
+    }
+
+    .cashbox-menu.show {
+        margin: 30px auto 10px;
+        width: 340px;
+    }
+
+    .cashbox-menu-item.text-only:first-child {
+        margin-right: 15px;
+    }
+
+    .cashbox-description {
+        font-size: 0.9375em;
+    }
+
+    .cashbox-menu-item.text-only {
+        height: 45px;
+        width: 160px;
+        padding-top: 12px;
+    }
+
+    .payment-list {
+        width: 80%;
+    }
+
+    .payment-list li.logo {
+        margin: 0 5px 10px 0;
+        height: 30px;
+    }
+
+    .payment-list li.logo.visa {
+        width: 60px;
+    }
+
+    .payment-list li.logo.mastercard {
+        width: 50px;
+    }
+
+    .payment-list li.logo.maestro {
+        width: 50px;
+    }
+
+    .payment-list li.logo.qiwi {
+        width: 30px;
+    }
+
+    .payment-list li.logo.webmoney {
+        width: 33px;
+    }
+
+    .payment-list li.logo.yandex-money {
+        width: 27px;
+    }
+
+    .payment-list li.logo.w1 {
+        width: 51px;
+    }
+
+    .payment-list li.logo.mail-money {
+        width: 33px;
+    }
+
+    .payment-list li.logo.privat-24 {
+        width: 28px;
+    }
+
+    .payment-list li.logo.alfa-click {
+        width: 21px;
+    }
+
+    .payment-list li.logo.interkassa {
+        width: 20px;
+    }
+
+    .payment-list li.logo.skrill {
+        width: 89px;
+    }
+
+    .payment-list li.logo.liqpay {
+        width: 30px;
+    }
+
+    .payment-list li.logo.moneta {
+        width: 73px;
+    }
+
+    .games-in-bonus {
+        width: 306px;
+    }
+
+    .games-in-bonus-item {
+        width: 140px;
+        height: 80px;
+    }
+
+    .games-in-bonus-item img {
+        width: 140px;
+        height: 80px;
+    }
+
+    .games-in-bonus-item.selected:before {
+        width: 160px;
+        height: 100px;
+    }
+
+    .description-in-cashbox {
+        font-size: 0.9375em;
+        width: 600px;
+    }
+
+    .bonus-in-cashbox {
+        width: 460px;
+    }
+
+    .bonus-name-cashbox {
+        width: 430px;
+    }
+
+    .bonus-desc {
+        font-size: 0.875em;
+    }
+
+    .wrapper-bonus-desc {
+        width: 250px;
+        margin-left: 180px;
+    }
+
+    .bonus-time-desc {
+        font-size: 0.75em;
+    }
+
+    .bonus-active-img.in-cashbox {
+        width: 127px;
+        height: 127px;
+        left: -133px;
+        top: 5px;
+    }
+
+    .games-block {
+        width: 420px;
+    }
+
+    .games-in-bonus-item {
+        margin-right: -4px;
+    }
+
+    .games-in-bonus-item:nth-child(odd) {
+        margin-right: 25px;
+    }
+
+    .games-in-bonus-item:nth-child(3n) {
+        margin-right: 25px;
+    }
+
+    .games-block:before {
+        left: 170px;
+    }
+
+    .choose-game {
+        width: 300px;
+    }
+
+    .lines {
+        width: 400px;
+    }
+}
+
+/* Styles for 414x736 */
+
+@media only screen
+and (orientation: portrait)
+and (min-width: 414px)
+and (min-height: 736px) {
+
+    header.modal-pattern .center-wrapper,
+    .modal-pattern.text header.modal-pattern .center-wrapper {
+        width: 394px;
+    }
+
+    .modal-pattern .center-wrapper {
+        width: 350px;
+    }
+
+    a.cashbox {
+        right: -7px;
+    }
+
+    .menu-button {
+        left: 3px;
+    }
+
+    .center-wrapper {
+        width: 400px;
+    }
+
+    .section-logo {
+        left: 2.5%;
+    }
+
+    .section-name {
+        margin-left: 45px;
+    }
+
+    .payment-list {
+        width: 90%;
+    }
+
+    .items-list.games-list {
+        width: 390px;
+    }
+
+    .section-header.arrow:before {
+        left: 5%;
+        border-width: 20px 20px 0 20px;
+    }
+
+    .items-list.games-list .list-item {
+        width: 190px;
+        height: 145px;
+    }
+
+    .list-item .frame.in-game {
+        height: 35px;
+        padding-top: 7px;
+    }
+
+    .list-item .frame.in-game .item-name {
+        font-size: 0.875em;
+    }
+
+    .arrow-in-filter {
+        right: 140px;
+    }
+
+    /* Cashbox */
+
+    .payment-list-cashbox-item:nth-child(odd) {
+        margin-right: 23px;
+    }
+
+    .payment-list-cashbox-item:nth-child(even) {
+        margin-right: 0;
+    }
+
+    .payment-list-cashbox-item {
+        width: 186px;
+        height: 80px;
+        margin-bottom: 8px;
+    }
+
+    .cashbox-menu {
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .cashbox-menu-item {
+        margin-right: 22px;
+        width: 115px;
+        height: 80px;
+    }
+
+    .cashbox-description {
+        font-size: 0.875em;
+    }
+
+    .cashbox-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .payment-logo-cashbox {
+        width: 178px;
+        height: 70px;
+        top: 5px;
+        left: 5px;
+    }
+
+    .payment-list-cashbox-item.alfa-click .payment-logo-cashbox .logotype-cash {
+        left: 25px;
+        top: 20px;
+    }
+
+    .payment-list-cashbox-item.skrill .payment-logo-cashbox .logotype-cash {
+        left: 42px;
+        top: 10px;
+    }
+
+    .payment-list-cashbox-item.qiwi .payment-logo-cashbox .logotype-cash {
+        left: 24px;
+        top: 13px;
+    }
+
+    .payment-list-cashbox-item.neteller .payment-logo-cashbox .logotype-cash {
+        left: 27px;
+        top: 26px;
+    }
+
+    .payment-list-cashbox-item.webmoney .payment-logo-cashbox .logotype-cash {
+        left: 25px;
+        top: 20px;
+    }
+
+    .payment-list-cashbox-item.yandex-money .payment-logo-cashbox .logotype-cash {
+        left: 27px;
+        top: 10px;
+    }
+
+    .payment-list-cashbox-item.moneta .payment-logo-cashbox .logotype-cash {
+        left: 22px;
+        top: 10px;
+    }
+
+    /* Modal pattern */
+
+    .modal-description {
+        font-size: 1em;
+        line-height: 1.25em;
+    }
+
+    .social-network-list {
+        width: 400px;
+    }
+
+    .btn.close.enter {
+        right: 2px;
+    }
+
+    .bonus-active-img {
+        width: 168px;
+        height: 168px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .bonus .modal-head {
+        font-size: 1.5em;
+    }
+
+    .bonus .description {
+        font-size: 1.125em;
+    }
+
+    .logo-cashback {
+        width: 260px;
+        height: 133px;
+        margin-bottom: 25px;
+        margin-top: 20px;
+    }
+
+    .tapestry {
+        width: 380px;
+        height: 262px;
+        font-size: 1em;
+        padding: 100px 60px;
+    }
+
+    .social-description.accept-small-size {
+        font-size: 1em;
+        margin-bottom: 35px;
+    }
+
+    .social-description.accept {
+        font-size: 1.125em;
+        margin: 40px auto;
+    }
+
+    .description.add {
+        margin: 40px auto;
+    }
+
+    .description.short-width {
+        max-width: 400px;
+    }
+
+    .social-description.accept.registration {
+        margin: 15px auto 30px;
+    }
+
+    .social-description.text {
+        font-size: 1em;
+        margin: 25px auto;
+    }
+
+    .social-description.text.last {
+        margin-bottom: 30px;
+    }
+
+    .cash-list {
+        margin: 45px auto 40px;
+    }
+
+    .comp-points-image {
+        margin: 40px auto;
+    }
+
+    .social-description.points {
+        margin: 15px auto 20px;
+        font-size: 1em;
+    }
+
+    .description-in-cashbox {
+        width: 380px;
+    }
+
+    .bonus-in-cashbox {
+        width: 380px;
+    }
+
+    .games-block {
+        width: 320px;
+    }
+
+    .lines {
+        width: 300px;
+    }
+
+    .wrapper-bonus-desc {
+        margin-left: 140px;
+    }
+
+    .games-block:before {
+        left: 120px;
+    }
+
+    .list-item img {
+        width: 190px;
+        height: 110px;
+    }
+
+}
+
+/* Styles for 600x960 */
+
+@media only screen
+and (orientation: portrait)
+and (min-width: 600px)
+and (min-height: 900px) {
+
+    header.modal-pattern .center-wrapper,
+    .modal-pattern.text header.modal-pattern .center-wrapper {
+        width: 570px;
+    }
+
+    .authorized .center-wrapper {
+        width: 300px;
+    }
+
+    .center-wrapper {
+        width: 570px;
+    }
+
+    .main-menu-list a {
+        padding-left: 10px;
+    }
+
+    .menu-pattern {
+        height: 0;
+    }
+
+    nav.menu-list-pattern {
+        z-index: 10;
+        position: relative;
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    .menu-tablet-button {
+        display: inline-block;
+        height: 52px;
+        width: 48px;
+    }
+
+    a.cashbox {
+        right: -15px;
+    }
+
+    .copyright {
+        font-size: 0.875em;
+    }
+
+    .payment-systems-footer {
+        padding-bottom: 3px;
+    }
+
+    .arrow-in-filter {
+        right: 220px;
+    }
+
+    /* Cashbox */
+
+    .payment-list-cashbox-item:nth-child(odd) {
+        margin-right: 3px;
+    }
+
+    .tablets-smartphones.cashbox .tablet-version {
+        width: 200px;
+    }
+
+    #refill, #win {
+        margin-top: 15px;
+    }
+
+    .center-wrapper.cashbox {
+        width: 380px;
+    }
+
+    .cashbox-menu {
+        width: 380px;
+    }
+
+    .cashbox-menu-item {
+        margin-right: 13px;
+        width: 115px;
+        height: 75px;
+    }
+
+    .cashbox-icon {
+        margin: 7px auto 3px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .cashbox-menu-item:last-child {
+        margin-right: 0;
+    }
+
+    .payment-list-cashbox-item {
+        margin-bottom: 5px;
+    }
+
+    .cashbox-description {
+        font-size: 0.875em;
+    }
+
+    /* Modal pattern */
+    .modal-pattern .tablet-version {
+        width: 210px;
+    }
+
+    .btn.close {
+        top: 8px;
+        right: 3px;
+    }
+
+    header.modal-pattern {
+        position: relative;
+        top: 2px;
+    }
+
+    .social-network-list {
+        width: 340px;
+        margin: 0 auto 20px;
+    }
+
+    .enter-social {
+        margin-bottom: -10px;
+    }
+
+    li.social-item {
+        margin-bottom: 3px;
+    }
+
+    li.social-item:not(:last-child),
+    li.social-item:first-child {
+        margin-right: 5px;
+    }
+
+    .social-description {
+        font-size: 0.875em;
+        margin: 35px auto;
+        width: 340px;
+    }
+
+    .registration .social-description {
+        width: 380px;
+    }
+
+    .social-frame {
+        width: 300px;
+        margin: 30px auto;
+    }
+
+    ul.games-list-tablet {
+        margin-bottom: 370px;
+    }
+
+    .social-description.accept-small-size {
+        font-size: 1em;
+        margin-bottom: 35px;
+    }
+
+    .social-description.accept {
+        font-size: 1.125em;
+        margin: 40px auto;
+    }
+
+    .not-enough-money {
+        width: 200px;
+        height: 128px;
+        margin: 60px auto;
+    }
+
+    .social-description.accept.registration {
+        margin: 30px auto 35px;
+        font-size: 1.125em;
+        width: 380px;
+    }
+
+    .modal-information.restore {
+        margin-top: 20px;
+    }
+
+    .modal-section-name.restore {
+        margin-bottom: 30px;
+    }
+
+    input#e-mail {
+        margin-bottom: 20px;
+    }
+
+    .cash-list {
+        margin: 35px auto 25px;
+        max-width: 340px;
+    }
+
+    .cash-list-item:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    .tournament-win-image {
+        width: 356px;
+        height: 145px;
+        margin: 30px auto;
+        background-size: 350px 139px;
+    }
+
+    .win-place {
+        margin: 30px auto;
+        width: 345px;
+    }
+
+    .social-description.accept.tournament {
+        margin: 0 auto 30px;
+        font-size: 1em;
+    }
+
+    .modal-information .center-wrapper.tournament {
+        width: 450px;
+    }
+
+    .win-cup.first-place {
+        right: 50px;
+    }
+
+    .win-cup.second-place,
+    .win-cup.third-place {
+        right: 82px;
+    }
+
+    .new-desc {
+        margin: 25px auto 35px;
+    }
+
+    .status-box {
+        margin: 0 auto 40px;
+    }
+
+    .sum {
+        width: 340px;
+    }
+
+    .input-wrapper.select {
+        margin-top: 10px;
+    }
+
+    input#account {
+        margin: 30px auto 20px;
+    }
+
+    .cashbox-menu.show {
+        margin: 30px auto 10px;
+        width: 340px;
+    }
+
+    .cashbox-menu-item.text-only:first-child {
+        margin-right: 15px;
+    }
+
+    .cashbox-description {
+        font-size: 0.9375em;
+    }
+
+    .cashbox-menu-item.text-only {
+        height: 45px;
+        width: 160px;
+        padding-top: 12px;
+    }
+
+    .bonus-active-img.in-cashbox {
+        width: 85px;
+        height: 85px;
+        margin: 0;
+    }
+
+    .description-in-cashbox {
+        width: 580px;
+    }
+
+    .payment-figure-list {
+        width: 470px;
+    }
+
+    li.payment-item:nth-child(even) {
+        margin-left: 0;
+    }
+
+    li.payment-item {
+        margin-right: 10px;
+    }
+
+    li.payment-item:nth-child(3n) {
+        margin-right: 0;
+    }
+
+    li.payment-item:nth-last-child(1),
+    li.payment-item:nth-last-child(2) {
+        margin-bottom: 10px;
+    }
+
+    .description.wallet {
+        margin: 15px auto;
+        width: 98%;
+    }
+
+}
+
+/* Retina */
+
+@media only screen
+and (orientation: portrait)
+and (min-width: 414px)
+and (min-height: 736px)
+and (-webkit-min-device-pixel-ratio: 2),
+only screen
+and (orientation: portrait)
+and (min-width: 414px)
+and (min-height: 736px)
+and (-o-min-device-pixel-ratio: 2/1),
+only screen
+and (orientation: portrait)
+and (min-width: 414px)
+and (min-height: 736px)
+and (min--moz-device-pixel-ratio: 2),
+only screen
+and (orientation: portrait)
+and (min-width: 414px)
+and (min-height: 736px)
+and (min-resolution: 2dppx),
+only screen
+and (orientation: portrait)
+and (min-width: 414px)
+and (min-height: 736px)
+and (min-resolution: 192dpi) {
+    .menu-button {
+        height: 52px;
+        width: 48px;
+    }
+}
+

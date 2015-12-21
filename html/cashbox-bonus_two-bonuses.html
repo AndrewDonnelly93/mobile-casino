@@ -1,0 +1,522 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic-ext,cyrillic,latin-ext'
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext,cyrillic,latin-ext'
+          rel='stylesheet' type='text/css'>
+    <title>Касса</title>
+    <meta charset="UTF-8" name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1.0, user-scalable=no" />
+    <link href="../css/normalize.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../slidebars-0.10.2/distribution/0.10.2/slidebars.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../css/main.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../css/480x320.css" media="only screen
+and (min-width: 320px)
+and (max-width: 480px)" rel="stylesheet" type="text/css">
+    <link href="../css/568x320.css" media="only screen
+and (min-width: 320px)
+and (max-width: 568px)" rel="stylesheet" type="text/css">
+    <link href="../css/667x375.css" media="only screen
+and (min-width: 375px)
+and (max-width: 667px)" rel="stylesheet" type="text/css">
+    <link href="../css/736x414.css" media="only screen
+and (min-width: 414px)
+and (max-width: 736px)" rel="stylesheet" type="text/css">
+    <link href="../css/1024x768.css" media="only screen
+and (min-width: 768px)" rel="stylesheet" type="text/css">
+    <link href="../css/jquery.m_custom_scrollbar.css" media="screen" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../js/html5shiv.min.js"></script>
+    <script src="../js/html5shiv-printshiv.min.js"></script>
+    <script>
+        document.createElement("picture");
+    </script>
+    <script src="../picturefill-master/dist/picturefill.min.js" async></script>
+    <script src="../slidebars-0.10.2/distribution/0.10.2/slidebars.min.js"></script>
+    <script src="../js/jquery.m-custom-scrollbar.concat.min.js"></script>
+    <script src="../js/cashbox.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/regular-initialise.js"></script>
+</head>
+
+<body>
+<div id="sb-site">
+<table class="tablets-smartphones cashbox">
+<tr>
+<td class="tablet-version">
+    <section class="main-menu-separate">
+        <header class="menu-pattern">
+            <div class="left-menu-bg"></div>
+        </header>
+        <nav class="menu-list-pattern">
+            <ul class="main-menu-list">
+                <li><a href="#">Игры</a></li>
+                <li><a href="#">Ваша касса</a></li>
+                <li><a href="#">Бонусы</a></li>
+                <li><a href="#">Турниры</a></li>
+                <li><a href="#">Платежные системы</a></li>
+            </ul>
+        </nav>
+        <nav class="games-list-pattern">
+            <ul class="games-list-tablet">
+                <li><a class="first" href="#">Игры:</a></li>
+                <li><a href="#">Популярные</a></li>
+                <li><a href="#">Новые</a></li>
+                <li><a href="#">Слоты</a></li>
+                <li><a href="#">Джекпоты</a></li>
+                <li><a href="#">Видео покеры</a></li>
+                <li><a href="#">Столы</a></li>
+                <li><a href="#">Лотерея</a></li>
+                <li><a href="#">Прочие</a></li>
+            </ul>
+        </nav>
+    </section>
+</td>
+<td class="smartphone-version cashbox">
+<header>
+    <div class="head-core"></div>
+    <div class="head-left"></div>
+    <div class="head-right"></div>
+    <div class="head-gradient"></div>
+    <div class="center-wrapper">
+        <div class="menu-tablet-button sb-toggle-left"></div>
+        <div class="menu-button close-button sb-toggle-left"></div>
+        <div class="head-logo"></div>
+        <a href="#" class="cashbox"></a>
+    </div>
+</header>
+<div class="center-wrapper">
+<div class="section-header" id="open-cashbox-menu">
+    <p class="section-name no-img">Касса</p>
+    <div class="arrow-nav"></div>
+    <div class="warning"></div>
+</div>
+
+<div class="cashbox-menu">
+    <div class="cashbox-menu-item refill">
+        <a href="#refill" class="tabs-open"></a>
+
+        <div class="cashbox-icon"></div>
+        <p class="cashbox-description">пополнить счет</p>
+    </div>
+    <div class="cashbox-menu-item win">
+        <a href="#win" class="tabs-open"></a>
+
+        <div class="cashbox-icon"></div>
+        <p class="cashbox-description">выигрыш</p>
+    </div>
+    <div class="cashbox-menu-item history">
+        <a href="#history" class="tabs-open"></a>
+
+        <div class="cashbox-icon"></div>
+        <p class="cashbox-description">история</p>
+    </div>
+</div>
+
+<div class="tabs" id="refill">
+    <div class="center-wrapper cashbox">
+        <ul class="payment-list-cashbox">
+
+            <li class="payment-list-cashbox-item alfa-click active">
+                <a class="cashbox-link" href="#"></a>
+
+                <div class="payment-logo-cashbox">
+                    <div class="logotype-cash"></div>
+                </div>
+            </li>
+            <li class="payment-list-cashbox-item skrill">
+                <a class="cashbox-link" href="#"></a>
+
+                <div class="payment-logo-cashbox">
+                    <div class="logotype-cash"></div>
+                </div>
+            </li>
+            <li class="payment-list-cashbox-item qiwi">
+                <a class="cashbox-link" href="#"></a>
+
+                <div class="payment-logo-cashbox">
+                    <div class="logotype-cash"></div>
+                </div>
+            </li>
+            <li class="payment-list-cashbox-item neteller">
+                <a class="cashbox-link" href="#"></a>
+
+                <div class="payment-logo-cashbox">
+                    <div class="logotype-cash"></div>
+                </div>
+            </li>
+            <li class="payment-list-cashbox-item webmoney">
+                <a class="cashbox-link" href="#"></a>
+
+                <div class="payment-logo-cashbox">
+                    <div class="logotype-cash"></div>
+                </div>
+            </li>
+            <li class="payment-list-cashbox-item yandex-money">
+                <a class="cashbox-link" href="#"></a>
+
+                <div class="payment-logo-cashbox">
+                    <div class="logotype-cash"></div>
+                </div>
+            </li>
+            <li class="payment-list-cashbox-item moneta">
+                <a class="cashbox-link" href="#"></a>
+
+                <div class="payment-logo-cashbox">
+                    <div class="logotype-cash"></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="tabs" id="win">
+    <div class="center-wrapper cashbox">
+        <ul class="payment-list-cashbox">
+            <li class="payment-list-cashbox-item qiwi">
+                <a class="cashbox-link" href="#"></a>
+
+                <div class="payment-logo-cashbox">
+                    <div class="logotype-cash"></div>
+                </div>
+            </li>
+            <li class="payment-list-cashbox-item webmoney">
+                <a class="cashbox-link" href="#"></a>
+
+                <div class="payment-logo-cashbox">
+                    <div class="logotype-cash"></div>
+                </div>
+            </li>
+            <li class="payment-list-cashbox-item yandex-money">
+                <a class="cashbox-link" href="#"></a>
+
+                <div class="payment-logo-cashbox">
+                    <div class="logotype-cash"></div>
+                </div>
+            </li>
+            <li class="payment-list-cashbox-item moneta">
+                <a class="cashbox-link" href="#"></a>
+
+                <div class="payment-logo-cashbox">
+                    <div class="logotype-cash"></div>
+                </div>
+            </li>
+            <li class="payment-list-cashbox-item skrill">
+                <a class="cashbox-link" href="#"></a>
+
+                <div class="payment-logo-cashbox">
+                    <div class="logotype-cash"></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="tabs" id="history">
+    <div class="center-wrapper cashbox">
+        <p class="tabs-section-name">История платежей</p>
+
+        <div class="history-table">
+            <div class="history-item">
+                <div class="transaction-name">№ 5643567 / 28 дек 2014 в 12:59</div>
+                <div class="transaction-details">
+                    <p><span>сумма: </span> 35000 руб</p>
+
+                    <p><span>тип операции: </span> Депозит</p>
+
+                    <p><span>кошелек: </span> Qiwi [....7255]</p>
+                </div>
+            </div>
+            <div class="history-item">
+                <div class="transaction-name">№ 5643743 / 1 янв 2014 в 00:27</div>
+                <div class="transaction-details">
+                    <p><span>сумма: </span> 1000 руб</p>
+
+                    <p><span>тип операции: </span> Депозит</p>
+
+                    <p><span>кошелек: </span> Qiwi [....7255]</p>
+                </div>
+            </div>
+            <div class="history-item">
+                <div class="transaction-name">№ 5643567 / 28 дек 2014 в 12:59</div>
+                <div class="transaction-details">
+                    <p><span>сумма: </span> 35000 руб</p>
+
+                    <p><span>тип операции: </span> Депозит</p>
+
+                    <p><span>кошелек: </span> Qiwi [....7255]</p>
+                </div>
+            </div>
+            <div class="history-item">
+                <div class="transaction-name">№ 5643743 / 1 янв 2014 в 00:27</div>
+                <div class="transaction-details">
+                    <p><span>сумма: </span> 1000 руб</p>
+
+                    <p><span>тип операции: </span> Депозит</p>
+
+                    <p><span>кошелек: </span> Qiwi [....7255]</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="section-header" id="open-bonuses">
+    <p class="section-name no-img">Бонусы</p>
+
+    <div class="arrow-nav"></div>
+</div>
+
+<div class="open-bonuses-screen">
+    <p class="description-in-cashbox">
+        Для вас сейчас доступны бонусы, не забудьте вовремя их активировать!
+    </p>
+
+    <div class="bonus-in-cashbox">
+        <div class="bonus-name-cashbox">20 бесплатных комп-поинтов</div>
+
+        <div class="wrapper-bonus-desc">
+            <div class="bonus-active-img in-cashbox"></div>
+            <div class="bonus-desc">Наслаждайтесь игрой без необходимости платить за нее и
+                выигрывайте дополнительные деньги на свой баланс!
+            </div>
+            <div class="bonus-time-desc">Бонус ликвидируется через:</div>
+            <div class="bonus-time">
+                <span class="hours">23</span>
+                <p>:</p>
+                <span class="minutes">42</span>
+                <p>:</p>
+                <span class="seconds">18</span>
+            </div>
+        </div>
+
+        <a href="#" class="btn yellow in-cashbox">Активировать</a>
+    </div>
+
+    <div class="bonus-in-cashbox">
+        <div class="bonus-name-cashbox">10 бесплатных спинов с общей ставкой 15 рублей</div>
+
+        <div class="wrapper-bonus-desc">
+            <div class="bonus-active-img in-cashbox spins"></div>
+            <div class="bonus-desc">Наслаждайтесь игрой без необходимости платить за нее и
+                выигрывайте дополнительные деньги на свой баланс!
+            </div>
+            <div class="bonus-time-desc">Бонус ликвидируется через:</div>
+            <div class="bonus-time">
+                <span class="hours">23</span>
+                <p>:</p>
+                <span class="minutes">42</span>
+                <p>:</p>
+                <span class="seconds">18</span>
+            </div>
+        </div>
+        <div class="games-block">
+            <div class="choose-game">Выберите игру:</div>
+            <div class="lines">
+                <div class="first-line"></div>
+                <div class="second-line"></div>
+            </div>
+            <ul class="games-in-bonus">
+                <li class="games-in-bonus-item selected">
+                    <picture>
+                       <source srcset="../img/picture-in-bonus_140x80.png, ../img/picture-in-bonus_280x160.png 2x"
+                                media="(min-width:768px) and (orientation:portrait)">
+                        <source srcset="../img/picture-in-bonus_140x80.png, ../img/picture-in-bonus_280x160.png 2x"
+                                media="(min-width:736px) and (orientation:landscape)">
+                        <source srcset="../img/picture-in-bonus_105x60.png, ../img/picture-in-bonus_210x120.png 2x">
+                        <img src="../img/picture-in-bonus_105x60.png" alt="">
+                    </picture>
+                </li>
+                <li class="games-in-bonus-item">
+                    <picture>
+                        <source srcset="../img/picture-in-bonus_140x80.png, ../img/picture-in-bonus_280x160.png 2x"
+                                media="(min-width:736px) and (orientation:landscape)">
+                        <source srcset="../img/picture-in-bonus_140x80.png, ../img/picture-in-bonus_280x160.png 2x"
+                                media="(min-width:600px) and (orientation:portrait)">
+                        <source srcset="../img/picture-in-bonus_105x60.png, ../img/picture-in-bonus_210x120.png 2x">
+                        <img src="../img/picture-in-bonus_105x60.png" alt="">
+                    </picture>
+                </li>
+                <li class="games-in-bonus-item">
+                    <picture>
+                        <source srcset="../img/picture-in-bonus_140x80.png, ../img/picture-in-bonus_280x160.png 2x"
+                                media="(min-width:736px) and (orientation:landscape)">
+                        <source srcset="../img/picture-in-bonus_140x80.png, ../img/picture-in-bonus_280x160.png 2x"
+                                media="(min-width:600px) and (orientation:portrait)">
+                        <source srcset="../img/picture-in-bonus_105x60.png, ../img/picture-in-bonus_210x120.png 2x">
+                        <img src="../img/picture-in-bonus_105x60.png" alt="">
+                    </picture>
+                </li>
+                <li class="games-in-bonus-item">
+                    <picture>
+                        <source srcset="../img/picture-in-bonus_140x80.png, ../img/picture-in-bonus_280x160.png 2x"
+                                media="(min-width:736px) and (orientation:landscape)">
+                        <source srcset="../img/picture-in-bonus_140x80.png, ../img/picture-in-bonus_280x160.png 2x"
+                                media="(min-width:600px) and (orientation:portrait)">
+                        <source srcset="../img/picture-in-bonus_105x60.png, ../img/picture-in-bonus_210x120.png 2x">
+                        <img src="../img/picture-in-bonus_105x60.png" alt="">
+                    </picture>
+                </li>
+                <li class="games-in-bonus-item">
+                    <picture>
+                        <source srcset="../img/picture-in-bonus_140x80.png, ../img/picture-in-bonus_280x160.png 2x"
+                                media="(min-width:736px) and (orientation:landscape)">
+                        <source srcset="../img/picture-in-bonus_140x80.png, ../img/picture-in-bonus_280x160.png 2x"
+                                media="(min-width:600px) and (orientation:portrait)">
+                        <source srcset="../img/picture-in-bonus_105x60.png, ../img/picture-in-bonus_210x120.png 2x">
+                        <img src="../img/picture-in-bonus_105x60.png" alt="">
+                    </picture>
+                </li>
+            </ul>
+        </div>
+
+        <a href="#" class="btn yellow in-cashbox">Активировать</a>
+    </div>
+
+</div>
+
+<div class="section-header last">
+    <p class="section-name no-img">Профиль</p>
+
+    <div class="arrow-nav"></div>
+</div>
+</div>
+
+<section class="main-menu">
+    <div class="lights"></div>
+    <nav class="main-menu-nav">
+        <ul class="menu-list">
+            <li><a href="#">Игры</a></li>
+            <li><a class="click-menu" href="#">Ваша касса</a></li>
+            <li><a href="#">Бонусы</a></li>
+            <li><a href="#">Турниры</a></li>
+            <li><a href="#">Платежные системы</a></li>
+        </ul>
+    </nav>
+</section>
+
+<section class="payment-systems-footer">
+    <div class="center-wrapper">
+        <ul class="payment-list">
+            <li class="logo visa">
+            </li>
+            <li class="logo mastercard">
+            </li>
+            <li class="logo maestro">
+            </li>
+            <li class="logo qiwi">
+            </li>
+            <li class="logo webmoney">
+            </li>
+            <li class="logo yandex-money">
+            </li>
+            <li class="logo w1">
+            </li>
+            <li class="logo mail-money">
+            </li>
+            <li class="logo privat-24">
+            </li>
+            <li class="logo alfa-click">
+            </li>
+            <li class="logo interkassa">
+            </li>
+            <li class="logo skrill">
+            </li>
+            <li class="logo liqpay">
+            </li>
+            <li class="logo moneta">
+            </li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <div class="center-wrapper">
+        <div class="foot-logo"></div>
+        <p class="copyright centered">&copy; FrankCasino. Все права защищены</p>
+        <ul class="foot-menu centered">
+            <li>
+                <a href="#">Правила и условия</a>
+            </li>
+            <li>
+                <a href="#">&ndash; Защита информации</a>
+            </li>
+            <li>
+                <a href="#">&ndash; Честная игра</a>
+            </li>
+            <li>
+                <a href="#">&ndash; Ответственная игра</a>
+            </li>
+            <li>
+                <a href="#">&ndash; Защита от мошенничества</a>
+            </li>
+        </ul>
+    </div>
+</footer>
+
+</td>
+</tr>
+</table>
+<div style="display:none">
+    <div id="menu">
+        <header class="menu-pattern">
+            <div class="left-menu-bg"></div>
+            <div class="menu-logo"></div>
+            <div class="btn close menu sb-close"></div>
+        </header>
+        <section class="main-menu-separate">
+            <nav class="menu-list-pattern">
+                <ul class="main-menu-list">
+                    <li><a href="#">Игры</a></li>
+                    <li><a href="#">Ваша касса</a></li>
+                    <li><a href="#">Бонусы</a></li>
+                    <li><a href="#">Турниры</a></li>
+                    <li><a href="#">Платежные системы</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="btn yellow menu">Вход</a>
+            <a href="#" class="btn red menu">Регистрация</a>
+        </section>
+    </div>
+</div>
+
+
+<div style="display:none">
+    <section class="main-menu-separate tablet-portrait" id="tablet-portrait-menu">
+        <header class="menu-pattern">
+            <div class="left-menu-bg"></div>
+            <div class="btn close menu sb-close"></div>
+        </header>
+        <nav class="menu-list-pattern">
+            <ul class="main-menu-list">
+                <li><a href="#">Игры</a></li>
+                <li><a href="#">Ваша касса</a></li>
+                <li><a href="#">Бонусы</a></li>
+                <li><a href="#">Турниры</a></li>
+                <li><a href="#">Платежные системы</a></li>
+            </ul>
+        </nav>
+        <nav class="games-list-pattern">
+            <ul class="games-list-tablet">
+                <li><a class="first" href="#">Игры:</a></li>
+                <li><a href="#">Популярные</a></li>
+                <li><a href="#">Новые</a></li>
+                <li><a href="#">Слоты</a></li>
+                <li><a href="#">Джекпоты</a></li>
+                <li><a href="#">Видео покеры</a></li>
+                <li><a href="#">Столы</a></li>
+                <li><a href="#">Лотерея</a></li>
+                <li><a href="#">Прочие</a></li>
+            </ul>
+        </nav>
+    </section>
+</div>
+</div>
+<div class="sb-slidebar sb-left sb-width-custom sb-style-overlay">
+</div>
+
+</body>
+
+</html>   
